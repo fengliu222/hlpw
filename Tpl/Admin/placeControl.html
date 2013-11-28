@@ -1,0 +1,40 @@
+<include file="./Tpl/Common/header.html" />
+<div id="placecontrol">
+ 	<table class="table">
+	 		<tr>
+	 			<th>景点名称</th>
+	 			<th>可用状态</th>
+	 		</tr>
+	</table>
+	<div class="place">
+	 	
+			<volist name="place" id="vo" 
+					empty='$emtpy'>
+				<form  class="listForm form-inline" action="./?m=placeControl&&a=updatePlaceList" method="POST">
+					<input type="hidden" name='oldname' value="{$vo.placename}" />
+					<input type="text" name='newname' value="{$vo.placename}">
+				
+				
+					<select name="available">
+						<if condition="$vo.available eq 1">
+							<option value="{$vo.available}"  selected="selected">可用</option>
+							<option value="0">不可用</option>
+						<else />
+							<option value="1">可用</option>	
+							<option value="{$vo.available}"  selected="selected">不可用</option>
+										
+						</if>
+					</select>
+				
+				
+					<input type="submit" class="btn btn-primary sub" value="保存修改" />
+					<input type="button" name="del" class="btn btn-danger del" value="删除景点" />
+				</form>
+				 
+			</volist>
+	 	
+	 	
+	</div>
+	<input id="addPlace" type="button" class="btn btn-success  btn-large btn-block" value="增加新景点" />
+</div>
+<include file="./Tpl/Common/footer.html" />

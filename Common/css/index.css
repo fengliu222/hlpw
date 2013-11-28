@@ -1,0 +1,69 @@
+ /**
+  *	LOGO
+  */
+ #header{
+ 	width:50%;
+ 	height: 600px;
+ 	float: left;
+ 	background: url('../img/logo.png') no-repeat;
+ }
+
+ .content{
+ 	width: 50%;
+ 	float: left;
+	margin:50px 0;
+	padding: 25px 0 0 0 ;
+	background-color: #FAFAFA;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+ }
+.content input{
+	height:35px;
+}
+.form-actions, .form-horizontal{
+	margin-bottom: 0;
+}
+.require{
+	color:red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.input-append .btn{
+	height:35px;
+	font-weight: bold;
+}
+#scrollContent{
+	height:450px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.ifIcon{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left:245px;top:10px;
+	display: none;
+}
+
+.activeWrap{
+	position: relative;
+}
+
+.confirmWrap{
+	width: 75%;
+	margin: 15px auto;
+}
+
+.confirmWrap thead tr{
+	font-size: 18px;
+}
+
+#confirmName,
+#confirmTel,
+#confirmID,
+#confirmDate,
+#confirmCount {
+	font-weight: bold;
+}

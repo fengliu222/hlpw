@@ -1,0 +1,16 @@
+<include file="./Tpl/Common/header.html" />
+<div class="createNumber">
+	<legend>生成消费码</legend>
+	  <div class="control-group">
+	    <label class="control-label" for="lang">生成数量：</label>
+	    <div class="controls">
+	    	<input name="lang" type="text" value=" " />
+	    	<input id="subLang" class="btn" name="subLang" type="button" value="生成"/>
+			<input id="exportNum" name="exportNum" class="btn" type="button" value="导出为excel" onclick="window.location.href='?m=activeNumber&&a=exportExcel'" />
+	    </div>
+	  </div>
+	  <div>
+	  	还有<strong>{$numberCount}</strong>个消费码还未被使用过的。
+	  </div>
+</div>
+<include file="./Tpl/Common/footer.html" />

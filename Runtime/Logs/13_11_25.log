@@ -1,0 +1,342 @@
+[ 2013-11-25T00:00:12+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002754s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-25T00:00:18+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002845s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-25T00:00:42+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002747s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: available==1?'ava':'una' C:\wamp\www\pw\Runtime\Cache\848f4ea4b484aba8c291b28d2c23095d.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011429s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000751s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2013-11-25T00:00:50+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002642s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: available==1 C:\wamp\www\pw\Runtime\Cache\848f4ea4b484aba8c291b28d2c23095d.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000793s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2013-11-25T00:00:53+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002623s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000529s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2013-11-25T00:02:00+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002748s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-25T00:02:14+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002923s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-25T00:02:14+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002560s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-25T00:02:26+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002686s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002862s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2013-11-25T00:04:02+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002863s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2013-11-25T00:04:18+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002447s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2013-11-25T00:04:46+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002200s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000672s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2013-11-25T00:04:48+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002024s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003192s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2013-11-25T00:04:49+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002591s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2013-11-25T00:04:49+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002288s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2013-11-25T00:05:12+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002598s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2013-11-25T00:05:30+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002203s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2013-11-25T21:38:14+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2013-11-25T21:38:16+08:00 ] 127.0.0.1 /pw/?m=Admin&&type=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\AdminAction.class.php on line 46 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.027545s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 29 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021185s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+

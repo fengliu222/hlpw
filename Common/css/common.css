@@ -1,0 +1,23 @@
+/* 
+index style
+*/
+body{
+	background: url("../img/bg.png") repeat-x;
+}
+
+div, span, button{
+	outline:none;
+	-moz-outline:none;
+	-webkit-outline:none;
+}
+
+.clear{
+	clear:both;
+	height:1px;
+	display: block;
+	border:0;
+}
+
+.dn{
+	display: none;
+}

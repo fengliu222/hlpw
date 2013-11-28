@@ -1,0 +1,12 @@
+{
+    "folders":
+    [
+        {
+            "path": "C:\wamp\www\pw"
+        },
+    ],
+
+    "settings": {
+        "xdebug": { "url": "http://localhost/pw" }
+    }
+}

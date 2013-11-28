@@ -1,0 +1,528 @@
+[ 2013-11-28T00:01:23+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2013-11-28T00:02:09+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002677s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.027969s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2013-11-28T00:02:47+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002486s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2013-11-28T00:03:33+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002566s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010906s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000357s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2013-11-28T00:04:07+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002677s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: aa C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012426s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000974s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003114s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2013-11-28T00:04:10+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002530s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2013-11-28T00:04:19+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002598s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000419s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2013-11-28T00:04:27+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002239s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'id' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002109s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2013-11-28T00:05:45+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002431s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Array to string conversion C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [8] Array to string conversion C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 34 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2013-11-28T00:05:51+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002526s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2013-11-28T00:06:39+08:00 ] 127.0.0.1 /pw/?m=placeControl&&a=addPlace
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002508s ]
+SQL: SELECT * FROM `place` WHERE ( placename=11 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: INSERT INTO `place` (`placename`,`available`) VALUES ('11',1) [ RunTime:0.003932s ]
+NOTIC: [8] Undefined variable: var C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+
+[ 2013-11-28T00:06:39+08:00 ] 127.0.0.1 /pw/index.php?&m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002528s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000687s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2013-11-28T00:06:41+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002418s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 ) LIMIT 1   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+NOTIC: [2] Illegal string offset 'placename' C:\wamp\www\pw\Runtime\Cache\f12c0a77906a0f355c95666536d66c0f.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012822s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000611s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2013-11-28T00:08:26+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002405s ]
+SQL: SELECT * FROM `place` WHERE ( `id` = 0 )  [ RunTime:0.048555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2013-11-28T00:08:45+08:00 ] 127.0.0.1 /pw/index.php?&m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002602s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011961s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002292s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2013-11-28T00:08:50+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002817s ]
+SQL: SELECT * FROM `place` WHERE ( available=1 )  [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011906s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2013-11-28T00:10:26+08:00 ] 127.0.0.1 /pw/?m=placeControl&&a=deletePlace
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002163s ]
+SQL: DELETE FROM `place` WHERE ( placename='11' ) [ RunTime:0.038975s ]
+
+[ 2013-11-28T00:10:28+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002697s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.017562s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2013-11-28T00:10:41+08:00 ] 127.0.0.1 /pw/?m=placeControl&&a=addPlace
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002608s ]
+SQL: SELECT * FROM `place` WHERE ( placename=颐和园 ) LIMIT 1   [ RunTime:0.000334s ]
+ERR: 1054:Unknown column '颐和园' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `place` WHERE ( placename=颐和园 ) LIMIT 1  
+SQL: INSERT INTO `place` (`placename`,`available`) VALUES ('颐和园',1) [ RunTime:0.004849s ]
+NOTIC: [8] Undefined variable: var C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\wamp\www\pw\think\Common\functions.php 第 247 行.
+
+[ 2013-11-28T00:10:41+08:00 ] 127.0.0.1 /pw/index.php?&m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002453s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT `placename` FROM `place`  [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 48 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 52 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 48 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 52 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2013-11-28T00:10:43+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002577s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000481s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002278s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2013-11-28T00:10:48+08:00 ] 127.0.0.1 /pw/index.php?&m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002737s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT `placename` FROM `place`  [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 48 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 52 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 48 行.
+NOTIC: [8] Undefined index: available C:\wamp\www\pw\Runtime\Cache\efc41da4385ff596d3ae335ba3880285.php 第 52 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2013-11-28T00:10:58+08:00 ] 127.0.0.1 /pw/index.php?&m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002239s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011791s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2013-11-28T00:11:01+08:00 ] 127.0.0.1 /pw/?m=placeControl&&a=updatePlaceList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002161s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.003893s ]
+SQL: UPDATE `place` SET `placename`='颐和园',`available`=0 WHERE ( placename='颐和园' ) [ RunTime:0.003996s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001455s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2013-11-28T00:11:02+08:00 ] 127.0.0.1 /pw/?m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\pw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002255s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\pw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2013-11-28T00:11:04+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.002347s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000633s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+

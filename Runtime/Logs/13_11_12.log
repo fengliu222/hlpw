@@ -1,0 +1,2093 @@
+[ 2013-11-12T21:57:26+08:00 ] 127.0.0.1 /pw/?m=index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+NOTIC: [8] Undefined variable: waitSecond C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009691s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2013-11-12T21:58:04+08:00 ] 127.0.0.1 /pw/?m=index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+NOTIC: [8] Undefined variable: waitSecond C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000718s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2013-11-12T21:58:05+08:00 ] 127.0.0.1 /pw/?m=index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+NOTIC: [8] Undefined variable: waitSecond C:\wamp\www\pw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2013-11-12T21:58:11+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2013-11-12T21:58:13+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003277s ]
+
+[ 2013-11-12T21:58:14+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002622s ]
+
+[ 2013-11-12T21:58:16+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002749s ]
+
+[ 2013-11-12T21:58:39+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002904s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.009501s ]
+
+[ 2013-11-12T22:00:57+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002820s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000358s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:02:13+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003052s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000440s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:02:20+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003076s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:02:47+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003476s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000404s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:06:23+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003182s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:06:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003173s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:08:46+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000767s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2013-11-12T22:08:50+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003150s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123123121234' ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:09:19+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003040s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123123121234' ) LIMIT 1   [ RunTime:0.000358s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:09:29+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002926s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123123121234' ) LIMIT 1   [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:10:54+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009894s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2013-11-12T22:12:42+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000956s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2013-11-12T22:12:49+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2013-11-12T22:12:56+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2013-11-12T22:13:04+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001074s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000991s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2013-11-12T22:14:13+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2013-11-12T22:14:32+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2013-11-12T22:14:35+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002733s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123123123123' ) LIMIT 1   [ RunTime:0.000365s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:15:42+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002835s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123123123123' ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:16:35+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008899s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2013-11-12T22:16:37+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002908s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:16:40+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003077s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:16:45+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009162s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2013-11-12T22:16:47+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002979s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:18:14+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000537s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2013-11-12T22:18:15+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003367s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:18:41+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005132s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2013-11-12T22:18:45+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003178s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:20:41+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001075s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000913s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001091s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2013-11-12T22:20:43+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002865s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:21:14+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010369s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000836s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2013-11-12T22:21:16+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002876s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:22:17+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003599s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2013-11-12T22:22:20+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002973s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:23:22+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000694s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2013-11-12T22:23:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003986s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000381s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:25:07+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002597s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2013-11-12T22:25:22+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015439s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2013-11-12T22:25:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003588s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:25:38+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000596s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2013-11-12T22:25:40+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002868s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:26:17+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000671s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2013-11-12T22:26:20+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003188s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:26:55+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002805s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:26:59+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003160s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000371s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:02+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003298s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:04+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002638s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:08+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002738s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:11+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002796s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:11+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002657s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000453s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:12+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003231s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:13+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003026s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000315s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:16+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003019s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:27:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003520s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:00+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010498s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2013-11-12T22:28:06+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002996s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='1' ) LIMIT 1   [ RunTime:0.000316s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:27+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2013-11-12T22:28:30+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003225s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111' ) LIMIT 1   [ RunTime:0.000495s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:32+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003538s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number=' ' ) LIMIT 1   [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:43+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2013-11-12T22:28:45+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002914s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111' ) LIMIT 1   [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:48+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003219s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number=' ' ) LIMIT 1   [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:28:52+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number=' ' ) LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:29:31+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004310s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2013-11-12T22:29:51+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2013-11-12T22:29:53+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003061s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111' ) LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:02+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003454s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111' ) LIMIT 1   [ RunTime:0.000345s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:06+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002917s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number=' ' ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:07+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003296s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number=' ' ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:29+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2013-11-12T22:30:32+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002725s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000372s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:33+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002939s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:36+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000681s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2013-11-12T22:30:52+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003463s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='32131' ) LIMIT 1   [ RunTime:0.000468s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:30:53+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002708s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='32131' ) LIMIT 1   [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:31:01+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002844s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='132132189465' ) LIMIT 1   [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:31:01+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+
+[ 2013-11-12T22:31:04+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003553s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='132132189465' ) LIMIT 1   [ RunTime:0.000354s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:36:23+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003560s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='132132189465' ) LIMIT 1   [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:36:45+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002585s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='132132189465' ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:38:57+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002406s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2013-11-12T22:38:59+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003372s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:48:02+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001079s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003216s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2013-11-12T22:48:19+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2013-11-12T22:48:21+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002757s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000311s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:48:21+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267701255
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002921s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000358s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:49:00+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003730s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2013-11-12T22:49:03+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003344s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:49:03+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267743482
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003338s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000338s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:50:17+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010576s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002579s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2013-11-12T22:50:19+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003809s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:50:19+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267819314
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002752s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000334s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:50:59+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003111s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:50:59+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267858960
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003243s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:51:15+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000767s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002711s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2013-11-12T22:51:17+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002926s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+
+[ 2013-11-12T22:51:17+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267877538
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002876s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000436s ]
+NOTIC: [8] Use of undefined constant ifExistNumber - assumed 'ifExistNumber' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 20 行.
+
+[ 2013-11-12T22:51:50+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2013-11-12T22:51:51+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002751s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 23 行.
+
+[ 2013-11-12T22:51:51+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267911893
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002618s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000242s ]
+
+[ 2013-11-12T22:52:27+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000464s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2013-11-12T22:52:29+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384267949472
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002857s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000325s ]
+
+[ 2013-11-12T22:54:00+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268040868
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003402s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2013-11-12T22:55:25+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268125434
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003043s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000373s ]
+
+[ 2013-11-12T22:55:41+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268141128
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003391s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2013-11-12T22:55:41+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268141219
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002799s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2013-11-12T22:55:43+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268143153
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002792s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000397s ]
+
+[ 2013-11-12T22:55:43+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268143244
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002953s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000393s ]
+
+[ 2013-11-12T22:55:44+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268144120
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002932s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000329s ]
+
+[ 2013-11-12T22:55:45+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268145658
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002908s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000414s ]
+
+[ 2013-11-12T22:55:46+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268146618
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003616s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000383s ]
+
+[ 2013-11-12T22:55:51+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268151669
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002703s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000245s ]
+
+[ 2013-11-12T22:56:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268184824
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003121s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000397s ]
+
+[ 2013-11-12T22:57:09+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010607s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000647s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002694s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2013-11-12T22:57:11+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=125756549879&_=1384268231654
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003119s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000521s ]
+
+[ 2013-11-12T23:01:29+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=111111111111&_=1384268488993
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.043613s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2013-11-12T23:01:50+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=111111111111&_=1384268510867
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000323s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=111111111111&_=1384268664715
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.028064s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:29+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_0&fieldValue=111111111111&_=1384268669913
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003038s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:49+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268689226
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002907s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000499s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:51+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268691915
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002738s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000311s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:52+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268692803
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002985s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000334s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:04:59+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_2&fieldValue=123241325678&_=1384268699712
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003283s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='123241325678' ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:05:06+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_2&fieldValue=111111111111&_=1384268706794
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003189s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000381s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:05:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_2&fieldValue=111111111111&_=1384268724060
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003011s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000397s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\pw\ChromePhp.php 第 405 行.
+
+[ 2013-11-12T23:08:46+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_2&fieldValue=111111111111&_=1384268926328
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003940s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000420s ]
+
+[ 2013-11-12T23:08:47+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268927571
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002680s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000434s ]
+
+[ 2013-11-12T23:08:48+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_2&fieldValue=111111111111&_=1384268928799
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002744s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000292s ]
+
+[ 2013-11-12T23:08:49+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268929858
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002783s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2013-11-12T23:08:50+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268930620
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002827s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000346s ]
+
+[ 2013-11-12T23:09:13+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive&fieldId=passNumber_1&fieldValue=321321321321&_=1384268953401
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.004144s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='321321321321' ) LIMIT 1   [ RunTime:0.000550s ]
+
+[ 2013-11-12T23:09:52+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2013-11-12T23:10:03+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000644s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003230s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2013-11-12T23:11:04+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010593s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000992s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2013-11-12T23:15:15+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002845s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2013-11-12T23:15:26+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+
+[ 2013-11-12T23:15:44+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012797s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000796s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2013-11-12T23:15:58+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003121s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: fieldId C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 23 行.
+
+[ 2013-11-12T23:15:58+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003025s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: fieldId C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 23 行.
+
+[ 2013-11-12T23:16:00+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+NOTIC: [8] Undefined index: fieldValue C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002752s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: fieldId C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 23 行.
+
+[ 2013-11-12T23:16:40+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2013-11-12T23:16:51+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002857s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000331s ]
+
+[ 2013-11-12T23:16:52+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002847s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2013-11-12T23:16:53+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+
+[ 2013-11-12T23:17:12+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2013-11-12T23:17:15+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+
+[ 2013-11-12T23:18:06+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2013-11-12T23:18:55+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003404s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2013-11-12T23:18:58+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003667s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2013-11-12T23:19:00+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002702s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='125756549879' ) LIMIT 1   [ RunTime:0.000292s ]
+
+[ 2013-11-12T23:19:28+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000885s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000739s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2013-11-12T23:19:41+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002640s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000378s ]
+
+[ 2013-11-12T23:19:41+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2013-11-12T23:21:16+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2013-11-12T23:21:34+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003041s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000417s ]
+
+[ 2013-11-12T23:21:35+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+
+[ 2013-11-12T23:22:34+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010568s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000974s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000855s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2013-11-12T23:22:44+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003307s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000421s ]
+
+[ 2013-11-12T23:22:44+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+
+[ 2013-11-12T23:23:34+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000832s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2013-11-12T23:23:43+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003204s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000443s ]
+
+[ 2013-11-12T23:23:44+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 12 行.
+
+[ 2013-11-12T23:25:13+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2013-11-12T23:25:25+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002938s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2013-11-12T23:25:26+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+
+[ 2013-11-12T23:31:00+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+
+[ 2013-11-12T23:31:13+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+
+[ 2013-11-12T23:31:15+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+
+[ 2013-11-12T23:31:18+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+
+[ 2013-11-12T23:31:31+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2013-11-12T23:31:47+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2013-11-12T23:31:57+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003368s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2013-11-12T23:32:12+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003304s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000321s ]
+
+[ 2013-11-12T23:32:19+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003260s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 21 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000254s ]
+
+[ 2013-11-12T23:32:24+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002737s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000289s ]
+
+[ 2013-11-12T23:36:31+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+
+[ 2013-11-12T23:37:16+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+
+[ 2013-11-12T23:37:25+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2013-11-12T23:39:16+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+
+[ 2013-11-12T23:39:17+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+
+[ 2013-11-12T23:39:37+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+
+[ 2013-11-12T23:40:41+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003418s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 22 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000430s ]
+
+[ 2013-11-12T23:41:07+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003352s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 22 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000473s ]
+
+[ 2013-11-12T23:41:10+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003023s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 22 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2013-11-12T23:41:15+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003690s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 22 行.
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2013-11-12T23:41:36+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003235s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2013-11-12T23:43:11+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002616s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000256s ]
+
+[ 2013-11-12T23:47:52+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003028s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000379s ]
+
+[ 2013-11-12T23:47:54+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003097s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2013-11-12T23:48:02+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003062s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000350s ]
+
+[ 2013-11-12T23:48:05+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003137s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000371s ]
+
+[ 2013-11-12T23:48:14+08:00 ] 127.0.0.1 /pw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001056s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2013-11-12T23:48:19+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002846s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000368s ]
+
+[ 2013-11-12T23:48:22+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003298s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000376s ]
+
+[ 2013-11-12T23:48:33+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003152s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000352s ]
+
+[ 2013-11-12T23:48:34+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.003311s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000359s ]
+
+[ 2013-11-12T23:48:38+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002916s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000405s ]
+
+[ 2013-11-12T23:48:38+08:00 ] 127.0.0.1 /pw/?m=Index&&a=checkActive
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.002685s ]
+SQL: SELECT * FROM `activenumber` WHERE ( number='111111111111' ) LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2013-11-12T23:48:38+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+
+[ 2013-11-12T23:58:18+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.002972s ]
+SQL: INSERT INTO `reservationlist` (`name`,`tel`,`idcard`,`playdate`,`playercount`) VALUES ('刘剑锋','13126620104','220822199203067357','2013-12-05','[\"111111111111\"]') [ RunTime:0.036238s ]
+
+[ 2013-11-12T23:59:20+08:00 ] 127.0.0.1 /pw/?m=Index&&a=buy
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+NOTIC: [8192] Function ereg() is deprecated C:\wamp\www\pw\Lib\Action\IndexAction.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.003042s ]
+SQL: INSERT INTO `reservationlist` (`name`,`tel`,`idcard`,`playdate`,`playercount`,`playerid`) VALUES ('刘剑锋','13126620104','220822199203067357','2013-12-05',1,'[\"111111111111\"]') [ RunTime:0.031070s ]
+
