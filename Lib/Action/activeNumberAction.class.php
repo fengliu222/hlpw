@@ -2,8 +2,9 @@
 	class activeNumberAction extends Action {
 
 		public function index(){
-			 
+			$placeAction = A("placeControl");
 			$indexData['numberCount'] = $this -> activeNumberCount();
+			$indexData['placelist'] = $placeAction -> checkOutPlaceList(true);
 			$this -> assign($indexData);
 			$this -> display('./Tpl/Admin/activeNumber.html');
 		}
@@ -17,15 +18,17 @@
 
 			$numModel = new Model("Activenumber");
  			$resultArr = array();
+ 			$placename = $_GET['placename'];
 
  			$lang =intval($_GET['lang'], 10);
 
 			for($k=0; $k<$lang; $k++) {
+
 				$arrTemp = array();
-
+				$arrTemp["placename"] = $placename;
 				$arrTemp["number"] = self::randomkeys(12);
+				
 				$numModel -> add($arrTemp);
-
 				array_push($resultArr, $arrTemp["number"]);
 			}
 			 

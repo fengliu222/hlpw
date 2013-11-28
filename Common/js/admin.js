@@ -3,9 +3,11 @@ $(function() {
 	$("#subLang").click(function() {
 
 		var lang = $(this).prev().val();
+		var placename = $("#placename").val();
 
 		$.get("?m=activeNumber&&a=createAcitiveNumber", {
-			lang: lang
+			lang: lang,
+			placename : placename
 		}, function(data) {
 			alert(data["info"]);
 		})

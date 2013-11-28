@@ -17,7 +17,7 @@
 			</div>
 			<div id="content">
 				<div class="formWrap">
-					<form id='formContent' action="User" method="POST">
+					<form id='formContent' action="./?m=User&&a=adminLogin" method="POST">
 						<div class="control-group">
 							<label for="account">用户名:</label>
 							<input class="input-large" type="text" name="account" id="account" required placeholder="请输入用户名">

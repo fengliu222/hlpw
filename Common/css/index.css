@@ -1,13 +1,18 @@
  /**
   *	LOGO
   */
+ #main{
+ 	width:1170px;
+ }
  #header{
  	width:50%;
  	height: 600px;
  	float: left;
  	background: url('../img/logo.png') no-repeat;
  }
-
+.controls{
+	margin-left: 180px;
+}
  .content{
  	width: 50%;
  	float: left;

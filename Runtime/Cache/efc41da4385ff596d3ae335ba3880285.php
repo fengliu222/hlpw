@@ -31,6 +31,7 @@
 </div>
 					<div id="article" class="span8">
 <div id="placecontrol">
+	<legend>预约地点管理</legend>
  	<table class="table">
 	 		<tr>
 	 			<th>景点名称</th>

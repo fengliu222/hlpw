@@ -4,20 +4,16 @@
     <title>欢乐票务网--北京欢乐谷在线订票|欢乐谷|北京欢乐谷</title>
     <meta charset='utf-8'>
     <meta Keywords='欢乐谷在线订票,欢乐谷门票,北京欢乐谷门票预订,北京欢乐谷,欢乐谷票务'>
-    <script src="common/js/jquery-1.7.2.min.js"></script>
-    <script src="common/js/bootstrap.min.js"></script>
-    <script src="common/js/jquery.validationEngine-zh_CN.js"></script>
-    <script src="common/js/jquery.validationEngine.min.js"></script>
-    <script src="common/js/date/jquery.datepick.js"></script>
-    <script src="common/js/date/jquery.datepick-zh-CN.js"></script>
-    <script src="common/js/index.js"></script>
+    <!--[if lte IE 6]> 
+    <link rel="stylesheet" href="common/css/bootstrap-ie6.min.css">
+    <link rel="stylesheet" href="common/css/ie.css">
+    <![endif]-->
     <link rel="stylesheet" href="common/css/bootstrap.min.css">
-    <link rel="stylesheet" href="common/css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="common/css/validationEngine.jquery.css">
+ 
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="common/css/index.css">
     <link rel="stylesheet" href="common/js/date/jquery.datepick.css">
-
+     <link rel="stylesheet" href="common/css/validationEngine.jquery.css">
 </head>
 
 <body>
@@ -31,13 +27,12 @@
                         <lable class="control-label">门票名称</lable>
                         <div class="controls">
                                 <select id='parkName'>
-                                    
                                     <?php if(is_array($placelist)): $i = 0; $__LIST__ = $placelist;if( count($__LIST__)==0 ) : echo "空" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["placename"]); ?>"><?php echo ($vo["placename"]); ?></option><?php endforeach; endif; else: echo "空" ;endif; ?>
                                 </select>
                         </div>
                     </div>
                     <div class="control-group">
-                        <lable class="control-label" for="userName">
+                        <lable class="control-label" for="userName"> 
                             <span class="require">*</span>取票人姓名</lable>
                         <div class="controls">
                             <input name="userName" id="userName" class="input-xlarge validate[required]"  type="text" placeholder="姓名">
@@ -144,5 +139,12 @@
          <div class="clear"></div>
     </div>
 </body>
-
+<script src="common/js/jquery-1.7.2.min.js"></script>
+    <script src="common/js/bootstrap.min.js"></script>
+    <script src="common/js/bootstrap-ie.js"></script>
+    <script src="common/js/jquery.validationEngine-zh_CN.js"></script>
+    <script src="common/js/jquery.validationEngine.min.js"></script>
+    <script src="common/js/date/jquery.datepick.js"></script>
+    <script src="common/js/date/jquery.datepick-zh-CN.js"></script>
+    <script src="common/js/index.js"></script>
 </html>

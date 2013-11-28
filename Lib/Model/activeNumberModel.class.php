@@ -4,7 +4,7 @@
 		protected $trueTableName = 'acitvenumber'; 
 		protected $dbName = 'hlpw';
 		protected $fields = array(
-            'id', 'number'
+            'id', 'number', 'placename'
         ); 
 	}
  ?>
