@@ -1,19 +1,19 @@
  /**
   *	LOGO
   */
- #main{
- 	width:1170px;
+
+ body{
+ 	text-align: center;
  }
+  
  #header{
  	width:50%;
  	height: 600px;
  	float: left;
  	background: url('../img/logo.png') no-repeat;
  }
-.controls{
-	margin-left: 180px;
-}
- .content{
+ 
+.content{
  	width: 50%;
  	float: left;
 	margin:50px 0;
@@ -27,9 +27,7 @@
 .content input{
 	height:35px;
 }
-.form-actions, .form-horizontal{
-	margin-bottom: 0;
-}
+ 
 .require{
 	color:red;
 	font-size: 18px;
@@ -41,6 +39,7 @@
 }
 #scrollContent{
 	height:450px;
+	text-align: left;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
@@ -53,8 +52,13 @@
 }
 
 .activeWrap{
+	width: 350px !important;
 	position: relative;
 }
+.activeWrap .activeNumber{
+	float: left;
+	width: 261px;
+} 
 
 .confirmWrap{
 	width: 75%;
@@ -71,4 +75,8 @@
 #confirmDate,
 #confirmCount {
 	font-weight: bold;
+}
+.clear{
+	clear:both;
+	height: 0;
 }

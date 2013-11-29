@@ -7,28 +7,31 @@
 	 			<th>可用状态</th>
 	 		</tr>
 	</table>
-	<div class="place">
+	<div class="place ">
 	 	
 			<volist name="place" id="vo" 
 					empty='$emtpy'>
 				<form  class="listForm form-inline" action="./?m=placeControl&&a=updatePlaceList" method="POST">
+				
 					<input type="hidden" name='oldname' value="{$vo.placename}" />
-					<input type="text" name='newname' value="{$vo.placename}">
+					<div class="form-group">
+						<input type="text" class="form-control" name='newname' value="{$vo.placename}">
+					</div>
+					
+					<div class="form-group">
+						<select name="available" class="form-control">
+							<if condition="$vo.available eq 1">
+								<option value="{$vo.available}"  selected="selected">可用</option>
+								<option value="0">不可用</option>
+							<else />
+								<option value="1">可用</option>	
+								<option value="{$vo.available}"  selected="selected">不可用</option>
+											
+							</if>
+						</select>
+					</div>
 				
-				
-					<select name="available">
-						<if condition="$vo.available eq 1">
-							<option value="{$vo.available}"  selected="selected">可用</option>
-							<option value="0">不可用</option>
-						<else />
-							<option value="1">可用</option>	
-							<option value="{$vo.available}"  selected="selected">不可用</option>
-										
-						</if>
-					</select>
-				
-				
-					<input type="submit" class="btn btn-primary sub" value="保存修改" />
+					<input type="submit" class="btn btn-default sub" value="保存修改" />
 					<input type="button" name="del" class="btn btn-danger del" value="删除景点" />
 				</form>
 				 

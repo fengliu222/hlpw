@@ -1,19 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html  lang="zh-CN">
 
 <head>
     <title>欢乐票务网--北京欢乐谷在线订票|欢乐谷|北京欢乐谷</title>
     <meta charset='utf-8'>
     <meta Keywords='欢乐谷在线订票,欢乐谷门票,北京欢乐谷门票预订,北京欢乐谷,欢乐谷票务'>
-    <!--[if lte IE 6]> 
-    <link rel="stylesheet" href="common/css/bootstrap-ie6.min.css">
-    <link rel="stylesheet" href="common/css/ie.css">
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <link rel="stylesheet" href="common/css/bootstrap.min.css">
  
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="common/css/index.css">
     <link rel="stylesheet" href="common/js/date/jquery.datepick.css">
-     <link rel="stylesheet" href="common/css/validationEngine.jquery.css">
+    <link rel="stylesheet" href="common/css/validationEngine.jquery.css">
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -21,76 +25,90 @@
         <div id="header"></div>
         <div id="inputForm" class="content">
             <div class="formBlock">
-                <form action="?m=Index&&a=buy" method="POST" class="form-horizontal" id="theForm">
-                    <div id="scrollContent">
-                    <div class="control-group">
-                        <lable class="control-label">门票名称</lable>
-                        <div class="controls">
-                                <select id='parkName'>
-                                    <volist name="placelist" id="vo" empty="空">
-                                        <option value="{$vo.placename}">{$vo.placename}</option>
-                                    </volist>
-                                </select>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <lable class="control-label" for="userName"> 
-                            <span class="require">*</span>取票人姓名</lable>
-                        <div class="controls">
-                            <input name="userName" id="userName" class="input-xlarge validate[required]"  type="text" placeholder="姓名">
-                        </div>
+                <form action="?m=Index&&a=buy" method="POST" class="form-horizontal" id="theForm"  role="form">
+                    <div id="scrollContent" class=''>
+                        <div class="form-group">
+                            <div class="col-lg-3 control-label">
+                                <lable>门票名称</lable>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                    <select id='parkName'  class="form-control">
+                                        <volist name="placelist" id="vo" empty="空">
+                                            <option value="{$vo.placename}">{$vo.placename}</option>
+                                        </volist>
+                                    </select>
+                            </div>
 
-                    </div>
-                    <div class="control-group">
-
-                        <lable class="control-label" for="userTel">
-                            <span class="require">*</span>取票人手机</lable>
-                        <div class="controls">
-                            <input name="userTel" id="userTel" class="input-xlarge validate[required,custom[phone]]" type="text">
                         </div>
-                    </div>
-                    <div class="control-group">
+                        
+                        <div class="form-group">
+                            <div class="col-lg-3 control-label">
+                                <lable for="userName"> 
+                                    <span class="require">*</span>取票人姓名</lable>
+                            </div>
+                            <div class="col-sm-6">
+                                <input name="userName" id="userName" class="form-control validate[required]"  type="text" placeholder="姓名">
+                            </div>
 
-                        <lable class="control-label" for="telConfirm">
-                            <span class="require">*</span>取票人手机确认</lable>
-                        <div class="controls">
-                            <input name="telConfirm" id="telConfirm" class="input-xlarge validate[required,equals[userTel]]" type="text" placeholder="重新输入一遍手机号码">
                         </div>
-                    </div>
-                    <div class="control-group">
-
-                        <lable class="control-label" for="userIDCard">
-                            <span class="require">*</span>身份证</lable>
-                        <div class="controls">
-                            <input name="userIDCard" id="userIDCard" class="input-xlarge validate[required,chinaIdLoose]" type="text">
-                        </div>
-                    </div>
-                    <div class="control-group">
-
-                        <lable class="control-label" for="ariDate">
-                            <span class="require">*</span>出游日期</lable>
-                        <div class="controls">
-                            <input id="ariDate" name="ariDate" class="input-xlarge validate[required]" type="text">
-                        </div>
-                    </div>
-                    <div class="control-group passBlock">
-
-                        <lable class="control-label" for="passNumber_0">
-                            <span class="require">*</span>消费码</lable>
-                        <div class="controls activeWrap">
-                            <div class="input-append">
-                                <input  name="passNumber_0"
-                                        id="passNumber_0" 
-                                        class="activeNumber input-xlarge validate[custom[yanzhengma12],ajax[ajaxActive]]" 
-                                        data-errormessage-custom-error="消费码为您购买时提供的十二位数字。"  
-                                        type="text" 
-                                        maxlength="12">
-                                <button class="btn addYZM" type="button">+</button>
-                                <img class="ifIcon" src="" />
+                        <div class="form-group">
+                            <div class="col-lg-3 control-label">
+                                <lable for="userTel">
+                                    <span class="require">*</span>取票人手机</lable>
+                            </div>
+                            <div class="col-sm-6">
+                                <input name="userTel" id="userTel" class="form-control validate[required,custom[phone]]" type="text">
                             </div>
                         </div>
-                    </div>
- 
+                        <div class="form-group">
+                            <div class="col-lg-3 control-label">
+                                <lable for="telConfirm">
+                                <span class="require">*</span>取票人手机确认</lable>
+                            </div>
+                            <div class="col-sm-6">
+                                <input name="telConfirm" id="telConfirm" class="form-control validate[required,equals[userTel]]" type="text" placeholder="重新输入一遍手机号码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-3 control-label">
+                                <lable for="userIDCard">
+                                <span class="require">*</span>身份证</lable>
+                            </div>
+                           
+                            <div class="col-sm-6">
+                                <input name="userIDCard" id="userIDCard" class="form-control validate[required,chinaIdLoose]" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                             <div class="col-lg-3 control-label">
+                                <lable for="ariDate">
+                                <span class="require">*</span>出游日期</lable>
+                            </div>
+                            <div class="col-sm-6">
+                                <input id="ariDate" name="ariDate" class="form-control validate[required]" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group passBlock">
+                            <div class="col-lg-3 control-label">
+                               <lable for="passNumber_0">
+                                <span class="require">*</span>消费码</lable>
+                            </div>
+                            
+                            <div class="col-sm-6 activeWrap">
+                                <div class="input-append">
+                                    <input  name="passNumber_0"
+                                            id="passNumber_0" 
+                                            class="activeNumber form-control validate[custom[yanzhengma12],ajax[ajaxActive]]" 
+                                            data-errormessage-custom-error="消费码为您购买时提供的十二位数字。"  
+                                            type="text" 
+                                            maxlength="12">
+                                    <button class="btn addYZM" type="button">+</button>
+                                    <img class="ifIcon" src="" />
+                                </div>
+                            </div>
+                        </div>
+     
                     </div>
                     <div class="form-actions">
                         <button type="submit" id="subButton" class="btn btn-primary">提交预订</button>
@@ -142,11 +160,12 @@
     </div>
 </body>
 <script src="common/js/jquery-1.7.2.min.js"></script>
-    <script src="common/js/bootstrap.min.js"></script>
-    <script src="common/js/bootstrap-ie.js"></script>
-    <script src="common/js/jquery.validationEngine-zh_CN.js"></script>
-    <script src="common/js/jquery.validationEngine.min.js"></script>
-    <script src="common/js/date/jquery.datepick.js"></script>
-    <script src="common/js/date/jquery.datepick-zh-CN.js"></script>
-    <script src="common/js/index.js"></script>
+<script src="common/js/bootstrap.min.js"></script>
+<script src="common/js/bootstrap-ie.js"></script>
+<script src="common/js/jquery.validationEngine-zh_CN.js"></script>
+<script src="common/js/jquery.validationEngine.min.js"></script>
+<script src="common/js/date/jquery.datepick.js"></script>
+<script src="common/js/date/jquery.datepick-zh-CN.js"></script>
+<script src="common/js/index.js"></script>
+
 </html>

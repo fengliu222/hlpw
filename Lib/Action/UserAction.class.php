@@ -20,7 +20,6 @@
 		    	  $this->success('登陆成功', '?m=Admin');
 
 		    }
- 
 			$this -> display();
  
 		}

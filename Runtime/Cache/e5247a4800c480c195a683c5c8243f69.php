@@ -1,18 +1,16 @@
-<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html  lang="zh-CN">
 	<head>
 		<title>欢乐票务后台管理系统</title>
 		<link rel="stylesheet" href="__CSS__bootstrap.css">
 		<link rel="stylesheet" href="__CSS__admin.css">
-			<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-			<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-			<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-			<!--[if (gte IE 9)|!(IE)]><!-->
-			<html class="not-ie" lang="en">
-			<!--<![endif]-->
-		<!--[if IE]>
-		   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		 
+ 
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+	    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+	    <![endif]-->
 	</head>
 	<body>
 		<div id="main">
@@ -21,7 +19,7 @@
 			</div>
 			<div id="content" class="container">
 				<div class="row">
-					<div id="aside" class="span3">
+					<div id="aside" class="col-md-2">
 	<ul class="nav nav-list">
 		 <li class="nav-header">常用功能</li>
 	 	<li class="active">
@@ -38,7 +36,7 @@
 	 	</li>
 	</ul>
 </div>
-					<div id="article" class="span8">
+					<div id="article" class="col-md-9">
 <div class="createNumber">
 	<legend>生成消费码</legend>
 	<form class="form-horizontal">

@@ -24,7 +24,8 @@ class IndexAction extends CommonAction {
 		 	for($i=0; $i<count($newActive); $i++){
 		  
 		 		if(!self::checkActiveExist($newActive[$i])){
-		 			$this -> ajaxReturn(["激活码验证错误，请重新输入！",false],'JSON');
+		 			$arr = ["激活码验证错误，请重新输入！",false];
+		 			$this -> ajaxReturn($arr,'JSON');
 		 			return false;
 		 		}
 		 	}
@@ -123,3 +124,4 @@ class IndexAction extends CommonAction {
 
     
 }
+?>

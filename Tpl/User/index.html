@@ -44,8 +44,8 @@
 			 	account:$("#account").val(),
 			 	pass:$("#pass").val()
 			 },function(data){
-			 	if(data[1]==1){
-			 		window.location.href="/?m=Admin";
+			 	if(data["data"]==1){
+			 		window.location.href="./?m=Admin";
 			 	}
 			 });
 		});
