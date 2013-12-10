@@ -1,5 +1,33 @@
 <include file="./Tpl/Common/header.html" />
 <div id="reservationList">
-	
+	<legend>预约查询</legend>
+	<div class="main">
+		<div class="placeSelector col-sm-3">
+			<select class='form-control' name="place" id="rl-place">
+				 <volist name="placelist" id="vo" empty="空">
+	                <option value="{$vo.placename}">{$vo.placename}</option>
+	            </volist>
+			</select>
+		</div>
+		<div class="queryBlock col-sm-9">
+			<input type="text" class='form-control' placeholder="请输入查询条件（姓名、身份证号、时间、消费码、手机号）">
+		</div>
+		<div class="clear"></div>
+		<div class="resTable col-sm-12">
+			<table class="table table-striped" id="reserList">
+				<tr class='theader'>
+					<th>姓名</th>
+					<th>电话</th>
+					<th>身份证号</th>
+					<th>预约人数</th>
+					<th>预约地点</th>
+					<th>预约码</th>
+					<th>游玩时间</th>
+					<th>提交时间</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 </div>
 <include file="./Tpl/Common/footer.html" />

@@ -21,7 +21,7 @@
  			$placename = $_GET['placename'];
 
  			$lang =intval($_GET['lang'], 10);
-
+ 			 
 			for($k=0; $k<$lang; $k++) {
 
 				$arrTemp = array();
@@ -29,6 +29,7 @@
 				$arrTemp["number"] = self::randomkeys(12);
 				
 				$numModel -> add($arrTemp);
+
 				array_push($resultArr, $arrTemp["number"]);
 			}
 			 

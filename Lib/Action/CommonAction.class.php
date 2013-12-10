@@ -115,7 +115,7 @@ class CommonAction extends Action {
      */
     function verify()
     {
-        ChromePHP::log(123);
+        
         import("ORG.Util.Image");
        	Image::buildImageVerify(4,5,png,50,22,'verify');
     }

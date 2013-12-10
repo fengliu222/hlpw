@@ -25,7 +25,7 @@
         <div id="header"></div>
         <div id="inputForm" class="content">
             <div class="formBlock">
-                <form action="?m=Index&&a=buy" method="POST" class="form-horizontal" id="theForm"  role="form">
+                <form action="#" method="POST" class="form-horizontal" id="theForm"  role="form">
                     <div id="scrollContent" class=''>
                         <div class="form-group">
                             <div class="col-lg-3 control-label">
@@ -33,7 +33,7 @@
                             </div>
                             
                             <div class="col-lg-6">
-                                    <select id='parkName'  class="form-control">
+                                    <select id='parkName' name='place' class="form-control">
                                         <?php if(is_array($placelist)): $i = 0; $__LIST__ = $placelist;if( count($__LIST__)==0 ) : echo "空" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["placename"]); ?>"><?php echo ($vo["placename"]); ?></option><?php endforeach; endif; else: echo "空" ;endif; ?>
                                     </select>
                             </div>
@@ -46,7 +46,7 @@
                                     <span class="require">*</span>取票人姓名</lable>
                             </div>
                             <div class="col-sm-6">
-                                <input name="userName" id="userName" class="form-control validate[required]"  type="text" placeholder="姓名">
+                                <input name="userName" id="userName" class="form-control validate[required]" data-prompt-position= "centerRight" type="text" placeholder="姓名">
                             </div>
 
                         </div>
@@ -56,7 +56,7 @@
                                     <span class="require">*</span>取票人手机</lable>
                             </div>
                             <div class="col-sm-6">
-                                <input name="userTel" id="userTel" class="form-control validate[required,custom[phone]]" type="text">
+                                <input name="userTel" id="userTel" class="form-control validate[required,custom[phone]]" data-prompt-position="centerRight" type="text">
                             </div>
                         </div>
                         <div class="form-group">
@@ -65,7 +65,7 @@
                                 <span class="require">*</span>取票人手机确认</lable>
                             </div>
                             <div class="col-sm-6">
-                                <input name="telConfirm" id="telConfirm" class="form-control validate[required,equals[userTel]]" type="text" placeholder="重新输入一遍手机号码">
+                                <input name="telConfirm" id="telConfirm" class="form-control validate[required,equals[userTel]]" data-prompt-position="centerRight" type="text" data-errormessage="两次输入的手机号码不一致" placeholder="重新输入一遍手机号码">
                             </div>
                         </div>
                         <div class="form-group">
@@ -75,7 +75,7 @@
                             </div>
                            
                             <div class="col-sm-6">
-                                <input name="userIDCard" id="userIDCard" class="form-control validate[required,chinaIdLoose]" type="text">
+                                <input name="userIDCard" id="userIDCard" class="form-control validate[required,custom[chinaIdLoose]]" data-prompt-position="centerRight" type="text">
                             </div>
                         </div>
                         <div class="form-group">
@@ -84,7 +84,7 @@
                                 <span class="require">*</span>出游日期</lable>
                             </div>
                             <div class="col-sm-6">
-                                <input id="ariDate" name="ariDate" class="form-control validate[required]" type="text">
+                                <input id="ariDate" name="ariDate" class="form-control validate[required]" data-prompt-position="centerRight" type="text">
                             </div>
                         </div>
                         <div class="form-group passBlock">
@@ -99,6 +99,7 @@
                                             id="passNumber_0" 
                                             class="activeNumber form-control validate[custom[yanzhengma12],ajax[ajaxActive]]" 
                                             data-errormessage-custom-error="消费码为您购买时提供的十二位数字。"  
+                                            data-prompt-position="centerRight" 
                                             type="text" 
                                             maxlength="12">
                                     <button class="btn addYZM" type="button">+</button>
@@ -128,6 +129,10 @@
                         </tr> 
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>景点名称：</td>
+                            <td id="confirmPlace"></td>
+                        </tr>
                         <tr>
                             <td>姓名：</td>
                             <td id="confirmName"></td>

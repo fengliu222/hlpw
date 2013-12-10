@@ -38,7 +38,33 @@
 </div>
 					<div id="article" class="col-md-9">
 <div id="reservationList">
-	
+	<legend>预约查询</legend>
+	<div class="main">
+		<div class="placeSelector col-sm-3">
+			<select class='form-control' name="place" id="rl-place">
+				 <?php if(is_array($placelist)): $i = 0; $__LIST__ = $placelist;if( count($__LIST__)==0 ) : echo "空" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["placename"]); ?>"><?php echo ($vo["placename"]); ?></option><?php endforeach; endif; else: echo "空" ;endif; ?>
+			</select>
+		</div>
+		<div class="queryBlock col-sm-9">
+			<input type="text" class='form-control' placeholder="请输入查询条件（姓名、身份证号、时间、消费码、手机号）">
+		</div>
+		<div class="clear"></div>
+		<div class="resTable col-sm-12">
+			<table class="table table-striped" id="reserList">
+				<tr class='theader'>
+					<th>姓名</th>
+					<th>电话</th>
+					<th>身份证号</th>
+					<th>预约人数</th>
+					<th>预约地点</th>
+					<th>预约码</th>
+					<th>游玩时间</th>
+					<th>提交时间</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 </div>
 					</div>
 				</div>

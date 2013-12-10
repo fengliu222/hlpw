@@ -6,6 +6,7 @@ return array (
   'DB_PORT' => '3306',
   'DB_PREFIX' => '',
   'URL_MODEL'=> 0,
+  'DB_SQL_BUILD_CACHE' => true,
   'CONSOLE_ON' => true,
   'TMPL_PARSE_STRING'  =>array(
      '__PUBLIC__' => './Common', // 更改默认的/Public 替换规则

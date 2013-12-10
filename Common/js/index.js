@@ -33,7 +33,7 @@ $(function() {
 
 	function ajaxForm(status, form, data, options) {
 		
-		res = data[0][""];
+		res = data[0];
 		if (data[1]) {
 			$("#inputForm").addClass("dn");
 			$("#confirmForm").removeClass("dn");
@@ -43,6 +43,7 @@ $(function() {
 			$("#confirmID").html(res[2]);
 			$("#confirmDate").html(res[3]);
 			$("#confirmCount").html(res[4]);
+			$("#confirmPlace").html(res[6]);
 		}
 
 	}
@@ -58,7 +59,7 @@ $(function() {
 			});
 
 	$("#doConfirm").bind('click',function(){
-		$.post("?m=Index&&a=saveBuy",{'name':res[0],'tel':res[1],'idcard':res[2],'playdate':res[3],'playercount':res[4],'playerid':res[5]},function(data){
+		$.get("?m=Index&&a=saveBuy",function(data){
 			alert(data['msg']);
 			window.location.reload();
 		});

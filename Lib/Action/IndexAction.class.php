@@ -1,13 +1,12 @@
 <?php
 
 class IndexAction extends CommonAction {
-	var $infoTemp;
+ 
 
     public function index(){
     	$placemodel = A("placeControl");
 
     	$indexdata['placelist'] = $placemodel -> checkOutPlaceList(true);
-    	ChromePHP::log($indexdata);
     	$this->assign($indexdata);
 		$this->display();
 	}
@@ -30,8 +29,11 @@ class IndexAction extends CommonAction {
 		 		}
 		 	}
 		 	 
-		 	$this -> $infoTemp = [$_POST["userName"], $_POST["userTel"], $_POST["userIDCard"], $_POST["ariDate"], count($newActive), $newActive];
-		 	$this -> ajaxReturn([$this->$infoTemp,true],'JSON');
+		 	
+		 	$infoTemp = [$_POST["userName"], $_POST["userTel"], $_POST["userIDCard"], $_POST["ariDate"], count($newActive), $newActive, $_POST["place"]];
+		 	cache('infoTemp',$infoTemp);
+ 
+		 	$this -> ajaxReturn([$infoTemp,true],'JSON');
 	}
 
 
@@ -41,21 +43,23 @@ class IndexAction extends CommonAction {
     public function saveBuy(){
     	/*写入数据库*/
 		$reservation = new Model("reservationlist");
+		 
+		$infoTemp = cache('infoTemp');
 		//  'name', 'tel','idcard','playdate','playercount','playerid'
-	 	ChromePHP::log($_POST);
-		$resData['name'] = $_POST['name'];
-		$resData['tel'] =  $_POST['tel'];
-		$resData['idcard'] =  $_POST['idcard'];
-		$resData['playdate'] =  $_POST['playdate'];
-		$resData['playercount'] =  $_POST['playercount'];
-		$resData['playerid'] =  implode(",",$_POST['playerid']) ;	
-
+ 		 
+		$resData['name'] = $infoTemp[0];
+		$resData['tel'] =  $infoTemp[1];
+		$resData['idcard'] =  $infoTemp[2];
+		$resData['playdate'] =  $infoTemp[3];
+		$resData['playercount'] =  $infoTemp[4];
+		$resData['playerid'] =  implode(",",$infoTemp[5]);	
+		$resData['place'] =  $infoTemp[6];
 		
 
-		for($i=0; $i<count( $_POST['playerid'] ); $i++){
+		for($i=0; $i<count( $infoTemp[5] ); $i++){
 	  		
-	 		if(self::checkActiveExist( $_POST['playerid'][$i])){
-	 			self::deleActivityNumber( $_POST['playerid'][$i]);
+	 		if(self::checkActiveExist( $infoTemp[5][$i])){
+	 			self::deleActivityNumber( $infoTemp[5][$i]);
 	 		}else{
 	 			$this -> ajaxReturn(["msg"=>"提交信息有误！"],"JSON");
 	 			return false;

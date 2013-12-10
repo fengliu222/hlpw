@@ -1,0 +1,3 @@
+<?php
+//000000000000s:389:"SELECT * FROM `reservationlist` WHERE ( (`name` LIKE '%220822199203067357%') OR (`tel` LIKE '%220822199203067357%') OR (`idcard` LIKE '%220822199203067357%') OR (`playdate` LIKE '%220822199203067357%') OR (`playerid` LIKE '%220822199203067357%') OR (`place` LIKE '%220822199203067357%') OR (`createdate` LIKE '%220822199203067357%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate ";
+?>

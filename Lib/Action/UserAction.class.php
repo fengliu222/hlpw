@@ -11,7 +11,7 @@
 				3.往数据库里增加激活码
 					0.激活码存入数据库
 					1.导出excel
-	*/
+	*/ 
 	class UserAction extends Action {
 		 
 		public function index(){

@@ -33,3 +33,15 @@ body #aside ul li:first-child {
 body #aside ul li {
   margin: 5px auto;
 }
+body #placecontrol .place {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body #placecontrol .place form {
+  margin-top: 5px;
+}
+.clear {
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

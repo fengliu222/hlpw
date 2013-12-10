@@ -39,22 +39,17 @@
 					<div id="article" class="col-md-9">
 <div id="placecontrol">
 	<legend>预约地点管理</legend>
- 	<table class="table">
-	 		<tr>
-	 			<th>景点名称</th>
-	 			<th>可用状态</th>
-	 		</tr>
-	</table>
-	<div class="place ">
-	 	
+  
+	<div class="place">
+		 
 			<?php if(is_array($place)): $i = 0; $__LIST__ = $place;if( count($__LIST__)==0 ) : echo "$emtpy" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><form  class="listForm form-inline" action="./?m=placeControl&&a=updatePlaceList" method="POST">
 				
 					<input type="hidden" name='oldname' value="<?php echo ($vo["placename"]); ?>" />
-					<div class="form-group">
+					<div class="col-sm-5">
 						<input type="text" class="form-control" name='newname' value="<?php echo ($vo["placename"]); ?>">
 					</div>
 					
-					<div class="form-group">
+					<div class="col-sm-3">
 						<select name="available" class="form-control">
 							<?php if($vo["available"] == 1): ?><option value="<?php echo ($vo["available"]); ?>"  selected="selected">可用</option>
 								<option value="0">不可用</option>

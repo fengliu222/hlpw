@@ -18,7 +18,7 @@
 			$place['available'] = $_POST["available"];
 
 			$placeModel = new Model("place");
-			ChromePHP::log($place);
+			 
 			if($place['placename']){
 
 				if(!$placeModel -> where("placename=".$place['placename']) -> find()){
