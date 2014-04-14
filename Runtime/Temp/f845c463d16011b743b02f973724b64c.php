@@ -1,0 +1,3 @@
+<?php
+//000000000000s:401:"SELECT * FROM `reservationlist` WHERE ( (`name` LIKE BINARY ('%2014-03-08%')) OR (`tel` LIKE BINARY ('%2014-03-08%')) OR (`idcard` LIKE BINARY ('%2014-03-08%')) OR (`playdate` LIKE BINARY ('%2014-03-08%')) OR (`playerid` LIKE BINARY ('%2014-03-08%')) OR (`place` LIKE BINARY ('%2014-03-08%')) OR (`createdate` LIKE BINARY ('%2014-03-08%')) ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc ";
+?>

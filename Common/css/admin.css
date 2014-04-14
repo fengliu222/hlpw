@@ -40,6 +40,42 @@ body #placecontrol .place {
 body #placecontrol .place form {
   margin-top: 5px;
 }
+body #activeDate {
+  width: 200px;
+  height: 32px;
+  text-indent: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+body .cdlist {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 5px;
+  border: 1px dashed #ccc;
+  background: #F0F0F0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+body #reservationList .placeSelector {
+  margin-bottom: 15px;
+}
+body #reservationList .placeSelector select {
+  width: 150px;
+}
+body #reservationList .queryInput {
+  width: 400px;
+}
+body .newSiteName {
+  display: none;
+}
+body #reservationList > .form-inline {
+  margin-top: 200px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
 .clear {
   height: 0;
   clear: both;

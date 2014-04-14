@@ -1,0 +1,1708 @@
+[ 2014-03-16T14:38:49+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.020739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030518s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.112567s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.018060s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.124251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002832s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018113s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009974s ]
+
+[ 2014-03-16T14:46:56+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006627s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-03-16T14:47:10+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006532s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2014-03-16T14:59:17+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007098s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010069s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2014-03-16T15:12:37+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007054s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2014-03-16T15:13:05+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006486s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2014-03-16T15:15:35+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007075s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-03-16T15:15:43+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006864s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000305s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2014-03-16T15:15:48+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006567s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000242s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2014-03-16T15:21:08+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006727s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2014-03-16T15:26:47+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006658s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2014-03-16T15:27:34+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006751s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000299s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2014-03-16T15:28:22+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006700s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-03-16T15:28:30+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006671s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2014-03-16T15:28:37+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006545s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-03-16T15:34:36+08:00 ] 127.0.0.1 /hlpw/?m=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000384s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2014-03-16T15:34:37+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000652s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2014-03-16T15:34:42+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.041006s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.019373s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.044503s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.035246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2014-03-16T15:34:50+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008090s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005369s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006125s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.021285s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.106639s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006688s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005630s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005424s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005541s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005942s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005400s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-03-16T15:34:51+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007968s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005125s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006073s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005337s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005244s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005414s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005468s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007460s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-03-16T15:34:59+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.022601s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005197s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006223s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005958s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005413s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005433s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005391s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005307s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000402s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-03-16T15:36:28+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007987s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004913s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006154s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006698s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005404s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005383s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005932s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005410s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.021285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005335s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008169s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2014-03-16T15:36:28+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006561s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004445s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005391s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005515s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005459s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005514s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005323s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-03-16T15:36:33+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-14
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007960s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005199s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006876s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005965s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005275s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005235s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 87 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005582s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-14 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2014-03-16T15:37:00+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-03-16T15:37:01+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007835s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008215s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005740s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000408s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-03-16T15:42:14+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-03-16T15:42:14+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.008645s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006925s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005725s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2014-03-16T15:42:23+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007946s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005163s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006048s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005432s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005193s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005356s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000178s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005304s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+
+[ 2014-03-16T15:43:45+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2014-03-16T15:43:45+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.023800s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008654s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005507s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000490s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-03-16T15:43:51+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.022210s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005173s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006093s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.014312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006025s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005498s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005251s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005973s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005311s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+
+[ 2014-03-16T15:43:57+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2014-03-16T15:43:58+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.008653s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008543s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.006032s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-03-16T15:44:02+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008087s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005009s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006041s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005316s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005508s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005412s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005291s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+
+[ 2014-03-16T15:44:08+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005685s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000421s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2014-03-16T15:44:09+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007828s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007780s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.006892s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-03-16T15:44:12+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-06&end=%E9%80%89%E6%8B%A9%E7%BB%88%E6%AD%A2%E6%97%A5%E6%9C%9F
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008007s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005094s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("选择终止日期 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007658s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001758s ]
+
+[ 2014-03-16T15:44:15+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-06&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008294s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005309s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006582s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005310s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005328s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005435s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005355s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-06 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+
+[ 2014-03-16T15:44:35+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005721s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-03-16T15:44:36+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007591s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007389s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005583s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000390s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2014-03-16T15:44:38+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000351s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000336s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-03-16T15:44:39+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007457s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007542s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005579s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-03-16T15:44:42+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-13&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008118s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005024s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-13 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+
+[ 2014-03-16T15:44:48+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-09
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.017362s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005233s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-09 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007043s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000351s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+
+[ 2014-03-16T15:44:51+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-01&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007756s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004874s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006053s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005943s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005315s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005999s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005431s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005467s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 89 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005971s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005877s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-01 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+
+[ 2014-03-16T15:49:29+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-03-16T15:49:29+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-03-16T15:50:57+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2014-03-16T15:50:57+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007128s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007459s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005549s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009058s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000300s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000215s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-03-16T15:50:59+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=%E9%80%89%E6%8B%A9%E8%B5%B7%E5%A7%8B%E6%97%A5%E6%9C%9F&end=%E9%80%89%E6%8B%A9%E7%BB%88%E6%AD%A2%E6%97%A5%E6%9C%9F
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008319s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005542s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("选择起始日期 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("选择终止日期 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000305s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000217s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+
+[ 2014-03-16T15:51:07+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-03&end=2014-03-08
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008015s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004999s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-08 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+
+[ 2014-03-16T15:51:11+08:00 ] 127.0.0.1 /hlpw/?m=usednumber&&a=doQuery&start=2014-03-03&end=2014-03-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007903s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005147s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005925s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='2' ) LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined index: 点评团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="2" ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005238s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005330s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="2" ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005362s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 90 行.
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( partner='3' ) LIMIT 1   [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\usednumberAction.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d %H:%i:%s") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") and partner="3" ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005494s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `usednumber` WHERE ( createdate>str_to_date("2014-03-03 00:00:00","%Y-%m-%d") and createdate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d") and partner="3" ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: partnerlist C:\wamp\www\hlpw\Runtime\Cache\10f766a3f28e03f4e99c5748782e9ce0.php 第 74 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+
+[ 2014-03-16T15:51:15+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-03-16T15:51:42+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2014-03-16T15:51:43+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007310s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2014-03-16T15:51:45+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=&queryBy=all
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.140792s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( (`name` LIKE BINARY ('%%')) OR (`tel` LIKE BINARY ('%%')) OR (`idcard` LIKE BINARY ('%%')) OR (`playdate` LIKE BINARY ('%%')) OR (`playerid` LIKE BINARY ('%%')) OR (`place` LIKE BINARY ('%%')) OR (`createdate` LIKE BINARY ('%%')) ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.018456s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.006471s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='026893306069' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.006399s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: dataStatis C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004054s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='661853148675' ) LIMIT 1   [ RunTime:0.000248s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004148s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='432572479875' ) LIMIT 1   [ RunTime:0.000215s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004080s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='984054568500' ) LIMIT 1   [ RunTime:0.000212s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='474691483379' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005433s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004308s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='644424376105' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005719s ]
+SQL: SELECT * FROM `partner` WHERE ( id='2' )  [ RunTime:0.000206s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004290s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='062762135933' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005292s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: 美团 C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004085s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='300071687762' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.005237s ]
+SQL: SELECT * FROM `partner` WHERE ( id='3' )  [ RunTime:0.000184s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003999s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='147768907351' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004116s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='093931725157' ) LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004490s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='061245404748' ) LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004101s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000195s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004024s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000179s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004251s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004181s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000178s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004061s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000154s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004065s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000152s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003994s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004278s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='003711414803' ) LIMIT 1   [ RunTime:0.000170s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004109s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='146842496076' ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='794316619112' ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004461s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='300149013427' ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004029s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='475912438505' ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004070s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='354564767671' ) LIMIT 1   [ RunTime:0.000191s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004347s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='787890205473' ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004088s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='107537149069' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004023s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='702084891923' ) LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004279s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='318084675425' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004149s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='854796591523' ) LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003984s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='472655731177' ) LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003973s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='433549279724' ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='661908625839' ) LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.003964s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='981253947168' ) LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8192] Function split() is deprecated C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.004329s ]
+SQL: SELECT * FROM `usednumber` WHERE ( number='' ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2014-03-16T15:51:51+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007649s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000293s ]
+NOTIC: [2] Missing argument 1 for activeNumberAction::activeNumberCount(), called in C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php on line 11 and defined C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007861s ]
+NOTIC: [8] Undefined variable: partid C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005792s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006679s ]
+SQL: SELECT `createdate` FROM `activenumber` ORDER BY createdate desc  [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042275s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2014-03-16T15:51:54+08:00 ] 127.0.0.1 /hlpw/?m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006896s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 44 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-03-16T15:51:54+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007074s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007497s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.005219s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009328s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-03-16T16:34:54+08:00 ] 127.0.0.1 /hlpw/?m=usednumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `partner` [ RunTime:0.007912s ]
+SQL: SELECT `name` FROM `partner`  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007027s ]
+SQL: SHOW COLUMNS FROM `usednumber` [ RunTime:0.022568s ]
+SQL: SELECT `partner` FROM `usednumber` WHERE ( useddate>str_to_date("2014-03-16 00:00:00","%Y-%m-%d %H:%i:%s") and useddate<str_to_date("2014-03-16 23:59:59","%Y-%m-%d %H:%i:%s") )  [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+

@@ -1,83 +1,120 @@
- /**
-  *	LOGO
-  */
- 
- #main{
- 	margin-top: 100px;
- }
- #header{
- 	width:50%;
- 	height: 600px;
- 	float: left;
- 	background: url('../img/logo.png') no-repeat ;
- }
- 
-.content{
- 	width: 50%;
- 	float: left;
-	margin:50px 0;
-	padding: 25px 0 0 0 ;
-	background-color: #FAFAFA;
-
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
- }
-.content input{
-	height:35px;
+/* 
+index style
+*/
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #42487a url("../img/bg.png") repeat-x;
 }
- 
-.require{
-	color:red;
-	font-size: 18px;
-	font-weight: bold;
+div,
+span,
+button {
+  outline: none;
+  -moz-outline: none;
+  -webkit-outline: none;
 }
-.input-append .btn{
-	height:35px;
-	font-weight: bold;
+.clear {
+  clear: both;
+  height: 1px;
+  display: block;
+  border: 0;
 }
-#scrollContent{
-	height:450px;
-	text-align: left;
-	overflow-x: hidden;
-	overflow-y: scroll;
+.dn {
+  display: none;
 }
-.ifIcon{
-	width: 15px;
-	height: 15px;
-	position: absolute;
-	left:245px;top:10px;
-	display: none;
+@media (max-width: 960px) {
+  #header {
+    display: none;
+  }
+  .smallLogo {
+    text-align: left;
+  }
+  .smallLogo h1 {
+    font-family: "微软雅黑";
+  }
+  .formBlock {
+    padding: 0 0 25px 0;
+  }
 }
-
-.activeWrap{
-	width: 350px !important;
-	position: relative;
+@media (min-width: 960px) {
+  .smallLogo {
+    display: none;
+  }
+  .formBlock {
+    padding: 25px 0;
+  }
 }
-.activeWrap .activeNumber{
-	float: left;
-	width: 261px;
-} 
-
-.confirmWrap{
-	width: 75%;
-	margin: 15px auto;
+#main {
+  margin-top: 100px;
+  font-family: "微软雅黑";
 }
-
-.confirmWrap thead tr{
-	font-size: 18px;
+#main #header {
+  height: 600px;
+  background: url('../img/logo.png') no-repeat center top;
 }
-
-#confirmName,
-#confirmTel,
-#confirmID,
-#confirmDate,
-#confirmCount,
-#confirmPlace {
-	text-align: left;
-	font-weight: bold;
+#main .content {
+  background-color: #FAFAFA;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
-.clear{
-	clear:both;
-	height: 0;
+#main .content input {
+  height: 35px;
+}
+#main .connect {
+  padding: 5px 0;
+  background: #272c38;
+  color: white;
+}
+#main .require {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+#main .input-append .btn {
+  height: 35px;
+  font-weight: bold;
+}
+#main #scrollContent {
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#main .ifIcon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 245px;
+  top: 10px;
+  display: none;
+}
+#main .activeWrap {
+  width: 350px !important;
+  position: relative;
+}
+#main .activeWrap .activeNumber {
+  float: left;
+  width: 261px;
+}
+#main .confirmWrap {
+  width: 75%;
+  margin: 15px auto;
+}
+#main .confirmWrap thead tr {
+  font-size: 18px;
+}
+#main #confirmName,
+#main #confirmTel,
+#main #confirmID,
+#main #confirmDate,
+#main #confirmCount,
+#main #confirmPlace {
+  text-align: left;
+  font-weight: bold;
+}
+.clear {
+  clear: both;
+  height: 0;
 }

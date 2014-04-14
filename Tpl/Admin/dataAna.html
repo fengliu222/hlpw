@@ -1,0 +1,71 @@
+<include file="./Tpl/Common/header.html" />
+<div id="dataAna">
+	<legend>数据汇总</legend>
+	<div class="dataDisplay">
+		<div class="date">
+			<if condition="$st eq $ed">
+				<strong>今日</strong>
+			<else />
+				从
+				<strong class="st">
+					{$st}
+				</strong>
+				至
+				<strong class="end">
+					{$ed}
+				</strong>
+			</if>
+			数据如下：
+		</div>
+		<div class="datablock">
+			一共有<strong>{$count}</strong>个订单，其中：
+		</div>
+		<div class="datatable">
+			<table class="table table-striped"> 
+				<tr>
+					<td>网站名称</td>
+					<td>该时间段售出</td>
+					<td>该时间段生成激活码数量</td>
+					<td>数据库中剩余</td>
+				</tr>
+				<volist name="today" id='vo'  key="k">
+					<tr>
+						<td>{$key}</td>
+						<td>{$vo[0]}个</td>
+						<td>{$vo[2]}个</td>
+						<td>{$vo[1]}个</td>
+					</tr>
+					
+				</volist>
+			</table>
+		</div>
+	</div>
+	<div class="formwrap">
+		<div class="formblock">
+			<form action="?/m=usednumberAction&&a=getUsedByDays" id="qbDate" class="form-inline" role="form" method="post">
+				<div class="form-group">
+				    <label for="startDate">起始日期:</label>
+				    <input type="button" class="form-control" id="startDate" name="startDate" value="选择起始日期">
+				</div>
+				<div class="form-group">
+				    <label for="endDate">终止日期:</label>
+				    <input type="button" class="form-control" id="endDate" name="endDate" value="选择终止日期">
+				</div>
+				<!-- <div class="form-group">
+				    <label for="partnerSelect">选择合作网站:</label>
+				    <select name="partnerSelect" id="partnerSelect" class="form-control">
+				    		<option value="all">全部网站汇总查询</option>
+				    	<volist name="partnerlist" id='vo'>
+					  		<option value="{$vo.name}">{$vo.name}</option>
+					  	</volist>
+				    </select>
+				</div> -->
+				
+			</form>
+
+			<input type="button" class="btn btn-primary btn-lg btn-block" id="checkbtn" name="checkbtn" value="查询">
+			 
+		</div>
+	</div>
+</div>
+<include file="./Tpl/Common/footer.html" />

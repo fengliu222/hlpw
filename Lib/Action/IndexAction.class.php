@@ -5,7 +5,6 @@ class IndexAction extends CommonAction {
 
     public function index(){
     	$placemodel = A("placeControl");
-
     	$indexdata['placelist'] = $placemodel -> checkOutPlaceList(true);
     	$this->assign($indexdata);
 		$this->display();
@@ -23,14 +22,13 @@ class IndexAction extends CommonAction {
 		 	for($i=0; $i<count($newActive); $i++){
 		  
 		 		if(!self::checkActiveExist($newActive[$i])){
-		 			$arr = ["激活码验证错误，请重新输入！",false];
+		 			$arr = array("激活码验证错误，请重新输入！",false);
 		 			$this -> ajaxReturn($arr,'JSON');
 		 			return false;
 		 		}
+
 		 	}
-		 	 
-		 	
-		 	$infoTemp = [$_POST["userName"], $_POST["userTel"], $_POST["userIDCard"], $_POST["ariDate"], count($newActive), $newActive, $_POST["place"]];
+		 	$infoTemp = array($_POST["userName"], $_POST["userTel"], $_POST["userIDCard"], $_POST["ariDate"], count($newActive), $newActive, $_POST["place"]);
 		 	cache('infoTemp',$infoTemp);
  
 		 	$this -> ajaxReturn([$infoTemp,true],'JSON');
@@ -43,9 +41,8 @@ class IndexAction extends CommonAction {
     public function saveBuy(){
     	/*写入数据库*/
 		$reservation = new Model("reservationlist");
-		 
+		$usedAct = A("usednumber");
 		$infoTemp = cache('infoTemp');
-		//  'name', 'tel','idcard','playdate','playercount','playerid'
  		 
 		$resData['name'] = $infoTemp[0];
 		$resData['tel'] =  $infoTemp[1];
@@ -54,20 +51,24 @@ class IndexAction extends CommonAction {
 		$resData['playercount'] =  $infoTemp[4];
 		$resData['playerid'] =  implode(",",$infoTemp[5]);	
 		$resData['place'] =  $infoTemp[6];
-		
 
 		for($i=0; $i<count( $infoTemp[5] ); $i++){
 	  		
 	 		if(self::checkActiveExist( $infoTemp[5][$i])){
-	 			self::deleActivityNumber( $infoTemp[5][$i]);
+	 			if($usedAct -> addUsed($infoTemp[5][$i])){
+	 		    	self::deleActivityNumber($infoTemp[5][$i]);
+	 			}else{
+	 				$this -> ajaxReturn(array("msg"=>"服务器出错，请重新提交预约！"),"JSON");
+	 				return false;
+	 			}
 	 		}else{
-	 			$this -> ajaxReturn(["msg"=>"提交信息有误！"],"JSON");
+	 			$this -> ajaxReturn(array("msg"=>"提交信息有误！"),"JSON");
 	 			return false;
 	 		}
 	 	}	
 
 		$reservation->add($resData);
-		$this -> ajaxReturn(["msg"=>"预约成功！"],"JSON");
+		$this -> ajaxReturn(array("msg"=>"预约成功！"),"JSON");
     }
 
 	/**
@@ -80,11 +81,10 @@ class IndexAction extends CommonAction {
 		$ifExistNumber = self::checkActiveExist($activeNum);
 		
 		if($ifExistNumber){
-			$this -> ajaxReturn([$_POST["fieldId"],true],'JSON');
+			$this -> ajaxReturn(array($_POST["fieldId"],true),'JSON');
 		}else{
-			$this -> ajaxReturn([$_POST["fieldId"],false],'JSON');
+			$this -> ajaxReturn(array($_POST["fieldId"],false),'JSON');
 		}
-
 	}
 	/**
 	 * 激活码去重

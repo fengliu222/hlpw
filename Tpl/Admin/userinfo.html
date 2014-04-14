@@ -1,0 +1,14 @@
+<include file="./Tpl/Common/header.html" />
+<div id="userinfo">
+	<legend>修改密码</legend>
+	<form action="./?m=User&&a=updatePass" method="post">
+		<label for="oldpass">原密码：</label>
+		<input type="text" name="oldpass">
+		<label for="newpass">新密码：</label>
+		<input type="password" name="newpass">
+		<label for="repass">确认新密码：</label>
+		<input type="password" name="repass">
+		<input type="submit" value="确认修改">
+	</form>
+</div>
+<include file="./Tpl/Common/footer.html" />

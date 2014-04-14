@@ -1,0 +1,24 @@
+<include file="./Tpl/Common/header.html" />
+<div id="placecontrol">
+	<legend>合作商家</legend>
+  
+	<div class="partnerList">
+		 
+			<volist name="partner" id="vo" 
+					empty='$emtpy'>
+				<form  class="listForm form-inline" action="./?m=partner&&a=updatePartner" method="POST">
+					<input type="hidden"  name='oldname' value="{$vo.partnername}" />
+					<div class="col-sm-5">
+						<input type="text" class="form-control" name='newname' value="{$vo.partnername}">
+					</div>
+					<input type="submit" class="btn btn-default sub" value="保存修改" />
+					<input type="button" name="del" class="btn btn-danger del" value="删除合作伙伴" />
+				</form>
+				 
+			</volist>
+	 	
+	 	
+	</div>
+	<input id="addPartner" type="button" class="btn btn-success  btn-large btn-block" value="增加新合作伙伴" />
+</div>
+<include file="./Tpl/Common/footer.html" />

@@ -23,7 +23,6 @@
 
 				if(!$placeModel -> where("placename=".$place['placename']) -> find()){
 					$placeModel -> add($place);
-					//$this->success('新增成功', '/?m=placeControl&&v=1');
 					$this->redirect('/?m=placeControl');
  
 				}else{

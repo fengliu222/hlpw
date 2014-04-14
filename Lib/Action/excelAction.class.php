@@ -3,29 +3,11 @@
     require_once './Lib/PHPExcel.php';       
     require_once './Lib/PHPExcel/Writer/Excel5.php'; 
 
-    class excelAction extends Action{
+    class excelAction extends CommonAction{
 
-        public function export_data(){
-             
-            $numModel = new Model("Activenumber");
-            $place = $_GET['place'];
-            $data = $numModel ->where("placename='".$place."'")-> order("id desc") -> select();
-
-            $obj_phpexcel = new PHPExcel();
-           
-            if($data){
-                $i =1;
-                foreach ($data as $key => $value) {
-                    # code...
-                    ChromePHP::log($value);
-                    $obj_phpexcel->getActiveSheet()->setCellValue('a'.$i,$value['number']." ");
-                    $i++;
-                }
-            }    
-
+        public function export_data($obj_phpexcel){
             $obj_Writer = PHPExcel_IOFactory::createWriter($obj_phpexcel,'Excel5');
             $filename = "outexcel.xls";
-            
             header("Content-Type: application/force-download"); 
             header("Content-Type: application/octet-stream"); 
             header("Content-Type: application/download"); 

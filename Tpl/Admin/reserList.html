@@ -1,32 +1,42 @@
 <include file="./Tpl/Common/header.html" />
-<div id="reservationList">
+<div id="reservationList" class="container">
 	<legend>预约查询</legend>
-	<div class="main">
-		<div class="placeSelector col-sm-3">
+	<div class="form-inline">
+		<div class="placeSelector">
 			<select class='form-control' name="place" id="rl-place">
 				 <volist name="placelist" id="vo" empty="空">
 	                <option value="{$vo.placename}">{$vo.placename}</option>
 	            </volist>
 			</select>
+			<label for="queryBy">
+				查询依据：
+			</label>
+			<select class='form-control' name="queryBy" id="rl-queryBy">
+				<option value="all">模糊查询</option>
+				<option value="createdate">订单时间</option>
+				<option value="playdate">出行时间</option>
+			</select>
+			<label for="queryInput">
+				关键字：
+			</label>
+			<input type="text" class='form-control queryInput' name="queryInput" placeholder="请输入查询条件（姓名、身份证号、时间、消费码、手机号）"><button type="button" class="btn btn-default query" >查询</button>
+			<button type="button" class="btn btn-default exports" >导出为Excel</button>
 		</div>
-		<div class="queryBlock col-sm-9">
-			<input type="text" class='form-control' placeholder="请输入查询条件（姓名、身份证号、时间、消费码、手机号）">
-		</div>
+ 
 		<div class="clear"></div>
+	</div>
+	<div class="row">
 		<div class="resTable col-sm-12">
 			<table class="table table-striped" id="reserList">
-				<tr class='theader'>
-					<th>姓名</th>
-					<th>电话</th>
-					<th>身份证号</th>
-					<th>预约人数</th>
-					<th>预约地点</th>
-					<th>预约码</th>
-					<th>游玩时间</th>
-					<th>提交时间</th>
-				</tr>
+				
 
 			</table>
+		</div>
+	</div>
+	<div class="row">
+		 
+		<div class="statisblock col-sm-12">
+			 
 		</div>
 	</div>
 </div>

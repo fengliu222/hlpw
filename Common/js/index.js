@@ -4,13 +4,18 @@ $(function() {
 	 * 日历初始化
 	 * @type {String}
 	 */
+	var curdate = new Date();
+	var offset = curdate.getHours() > 19 ? 2 : 1;
+	curdate.setDate(curdate.getDate()+offset);
 
 	$('#ariDate').datepick({
-		dateFormat: 'yy-mm-dd'
+		dateFormat: 'yy-mm-dd',
+		minDate:curdate
 	});
-
-
-	/**
+	$('#ariDate').on("keyup",function(){
+		$(this).val("");
+	})
+	/** 
 	 * 表单验证绑定
 	 * @type {Boolean}
 	 */

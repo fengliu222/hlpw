@@ -1,0 +1,3154 @@
+[ 2014-02-21T21:42:36+08:00 ] 127.0.0.1 /hlpw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.057837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073054s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.140386s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.024904s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.138101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011114s ]
+
+[ 2014-02-21T21:42:38+08:00 ] 127.0.0.1 /hlpw/?m=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Constant THEME_PATH already defined C:\wamp\www\hlpw\think\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wamp\www\hlpw\think\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048587s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000065s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000028s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049526s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000021s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.049271s ]
+
+[ 2014-02-21T21:42:40+08:00 ] 127.0.0.1 /hlpw/?m=Admin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-02-21T21:42:41+08:00 ] 127.0.0.1 /hlpw/?m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.021116s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2014-02-21T21:42:43+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.079389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.203118s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006919s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006068s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-02-21T21:42:51+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=createAcitiveNumber&lang=+20&placename=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008022s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','287960563137') [ RunTime:0.082402s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','798635806185') [ RunTime:0.049711s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','483189323867') [ RunTime:0.041314s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','517878115144') [ RunTime:0.049634s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','869648162721') [ RunTime:0.041392s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','044716254645') [ RunTime:0.041350s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','827739779125') [ RunTime:0.049672s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','392396113110') [ RunTime:0.041423s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','679035223715') [ RunTime:0.049763s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','405390057352') [ RunTime:0.041356s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','558540182643') [ RunTime:0.041316s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','883497987365') [ RunTime:0.049839s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','217735581319') [ RunTime:0.041314s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','842882493030') [ RunTime:0.041442s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','471511607165') [ RunTime:0.049826s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','798370842704') [ RunTime:0.041240s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','126728507552') [ RunTime:0.041398s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','531224804596') [ RunTime:0.049779s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','342972732190') [ RunTime:0.041402s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','801910046468') [ RunTime:0.041385s ]
+
+[ 2014-02-21T21:42:55+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.017549s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005915s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005520s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2014-02-21T21:42:56+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007694s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005824s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005686s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006577s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000266s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2014-02-21T21:42:57+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005837s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005599s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2014-02-21T21:42:57+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005916s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.004891s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005792s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000243s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-02-21T21:42:57+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005247s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006217s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000245s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-02-21T21:42:57+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005281s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005657s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2014-02-21T21:42:58+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005813s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005679s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000259s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2014-02-21T21:43:06+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006105s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006165s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000373s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2014-02-21T21:43:06+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005994s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.004984s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005549s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-02-21T21:43:07+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.009120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006350s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006292s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000308s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2014-02-21T21:43:07+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005416s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006065s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000289s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-02-21T21:43:32+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007996s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006033s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005760s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000247s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2014-02-21T21:43:35+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=createAcitiveNumber&lang=+20&placename=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008570s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','979118396585') [ RunTime:0.056050s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','442443951903') [ RunTime:0.041256s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','194603674493') [ RunTime:0.041439s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','357835083261') [ RunTime:0.041259s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','820448692843') [ RunTime:0.041410s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','482543733482') [ RunTime:0.041454s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','097529012515') [ RunTime:0.041342s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','047843213670') [ RunTime:0.041366s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','718348274807') [ RunTime:0.041473s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','997236730088') [ RunTime:0.041304s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','678144522974') [ RunTime:0.041436s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','008795935223') [ RunTime:0.050343s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','578045504767') [ RunTime:0.046243s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','741333379709') [ RunTime:0.044284s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','628291608727') [ RunTime:0.041292s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','129503321794') [ RunTime:0.041414s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','033644277891') [ RunTime:0.041432s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','213034340800') [ RunTime:0.041397s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','723851647306') [ RunTime:0.093599s ]
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: key C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+NOTIC: [8] String offset cast occured C:\wamp\www\hlpw\Lib\Action\activeNumberAction.class.php 第 62 行.
+SQL: INSERT INTO `activenumber` (`placename`,`number`) VALUES ('北京欢乐谷','946720644153') [ RunTime:0.122340s ]
+
+[ 2014-02-21T21:43:39+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005813s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005717s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000249s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2014-02-21T21:43:40+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007917s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005800s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005808s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000290s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2014-02-21T21:43:40+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005103s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005745s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007023s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000293s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000256s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2014-02-21T21:43:54+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.008106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005880s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005981s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000245s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001105s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2014-02-21T21:43:55+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007936s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005979s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006141s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009530s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000796s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003221s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2014-02-21T21:43:55+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005183s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005873s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2014-02-21T21:43:56+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005983s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.006002s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000751s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003154s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2014-02-21T21:44:17+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006950s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000778s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2014-02-21T21:45:00+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007126s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000861s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-02-21T21:45:33+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007056s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000700s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-02-21T21:45:34+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.031516s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007565s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-02-21T21:45:34+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006306s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-02-21T21:46:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007544s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000734s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000596s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-02-21T21:46:57+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006998s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010761s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2014-02-21T21:48:23+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007046s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-02-21T21:48:45+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007288s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011133s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2014-02-21T21:49:11+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007508s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-02-21T21:49:14+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007184s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-02-21T21:49:47+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007998s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2014-02-21T21:49:48+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007243s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-02-21T21:52:09+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.014333s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-02-21T21:52:31+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007256s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006598s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-02-21T21:53:04+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007625s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-02-21T21:53:05+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.012532s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-02-21T21:53:05+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.010916s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000684s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2014-02-21T21:53:18+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.020220s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000413s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-02-21T21:53:22+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007468s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-02-21T21:54:33+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006865s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-02-21T21:54:52+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007222s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2014-02-21T21:55:03+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006761s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010480s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001610s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-02-21T21:55:24+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007162s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006821s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000414s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-02-21T21:56:00+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007746s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-02-21T21:56:07+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007583s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-02-21T21:56:20+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007036s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-02-21T21:56:25+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007076s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000421s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-02-21T21:56:34+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006897s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000421s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-02-21T21:56:49+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007072s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-02-21T21:57:53+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.053040s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-02-21T22:00:30+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007553s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2014-02-21T22:00:40+08:00 ] 127.0.0.1 /hlpw/?place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&queryBy=createdate&queryInput=2013-12-01
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007214s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2014-02-21T22:01:04+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007152s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000488s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-02-21T22:01:05+08:00 ] 127.0.0.1 /hlpw/?place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&queryBy=all&queryInput=sadf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007572s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011524s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-02-21T22:01:29+08:00 ] 127.0.0.1 /hlpw/?place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&queryBy=all&queryInput=sadf
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006797s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2014-02-21T22:01:40+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007021s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011430s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2014-02-21T22:01:41+08:00 ] 127.0.0.1 /hlpw/?place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&queryBy=all&queryInput=adfg
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006901s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002329s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-02-21T22:02:22+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.019338s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-02-21T22:02:24+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=adf&queryBy=all
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.040441s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( (`name` LIKE BINARY ('%adf%')) OR (`tel` LIKE BINARY ('%adf%')) OR (`idcard` LIKE BINARY ('%adf%')) OR (`playdate` LIKE BINARY ('%adf%')) OR (`playerid` LIKE BINARY ('%adf%')) OR (`place` LIKE BINARY ('%adf%')) OR (`createdate` LIKE BINARY ('%adf%')) ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.043068s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:02:29+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.040320s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000351s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:02:39+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-11-13&queryBy=playdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010213s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `playdate` LIKE BINARY ('%2013-11-13%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000355s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:03:00+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007048s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2014-02-21T22:03:20+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007500s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2014-02-21T22:03:47+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=%E5%88%98%E5%89%91%E9%94%8B&queryBy=all
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010015s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( (`name` LIKE BINARY ('%刘剑锋%')) OR (`tel` LIKE BINARY ('%刘剑锋%')) OR (`idcard` LIKE BINARY ('%刘剑锋%')) OR (`playdate` LIKE BINARY ('%刘剑锋%')) OR (`playerid` LIKE BINARY ('%刘剑锋%')) OR (`place` LIKE BINARY ('%刘剑锋%')) OR (`createdate` LIKE BINARY ('%刘剑锋%')) ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000415s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:03:57+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-11-23&queryBy=playdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010171s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `playdate` LIKE BINARY ('%2013-11-23%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000349s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:04:50+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=13126620104&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010080s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%13126620104%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000334s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:04:52+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=13126620104&queryBy=all
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010444s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( (`name` LIKE BINARY ('%13126620104%')) OR (`tel` LIKE BINARY ('%13126620104%')) OR (`idcard` LIKE BINARY ('%13126620104%')) OR (`playdate` LIKE BINARY ('%13126620104%')) OR (`playerid` LIKE BINARY ('%13126620104%')) OR (`place` LIKE BINARY ('%13126620104%')) OR (`createdate` LIKE BINARY ('%13126620104%')) ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000455s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:05:52+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007055s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000468s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-02-21T22:05:58+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007328s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2014-02-21T22:08:24+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010678s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010310s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000416s ]
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+NOTIC: [2] json_encode(): type is unsupported, encoded as null C:\wamp\www\hlpw\ChromePhp.php 第 405 行.
+
+[ 2014-02-21T22:16:36+08:00 ] 127.0.0.1 /hlpw/?m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.032532s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.010316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060524s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.022480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008350s ]
+
+[ 2014-02-21T22:16:36+08:00 ] 127.0.0.1 /hlpw/?m=changePass
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\hlpw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+NOTIC: [8] Undefined variable: waitSecond C:\wamp\www\hlpw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000413s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-02-21T22:16:39+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.020432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.005788s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005893s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.085569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000550s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-02-21T22:16:41+08:00 ] 127.0.0.1 /hlpw/?m=excel&&a=export_data&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 参数错误或者未定义:obj_Writer
+
+[ 2014-02-21T22:17:00+08:00 ] 127.0.0.1 /hlpw/?m=excel&&a=export_data&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: 参数错误或者未定义:obj_phpexcel
+
+[ 2014-02-21T22:17:42+08:00 ] 127.0.0.1 /hlpw/?m=excel&&a=export_data&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+ERR: 参数错误或者未定义:obj_phpexcel
+
+[ 2014-02-21T22:17:59+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007879s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006066s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.005925s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007332s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-02-21T22:17:59+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=exports&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007826s ]
+
+[ 2014-02-21T22:18:11+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=exports&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007888s ]
+
+[ 2014-02-21T22:19:21+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=exports&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007817s ]
+SQL: SELECT * FROM `activenumber` WHERE ( placename='北京欢乐谷' AND createdate like '%' ) ORDER BY id desc  [ RunTime:0.000751s ]
+
+[ 2014-02-21T22:19:47+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber&&a=exports&&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&&date=
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.007713s ]
+SQL: SELECT * FROM `activenumber` WHERE ( placename='北京欢乐谷' AND createdate like '%' ) ORDER BY id desc  [ RunTime:0.000716s ]
+
+[ 2014-02-21T22:25:31+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004165s ]
+
+[ 2014-02-21T22:28:23+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+
+[ 2014-02-21T22:28:31+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007156s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.150838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150917s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028495s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006379s ]
+
+[ 2014-02-21T22:28:39+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010548s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000398s ]
+
+[ 2014-02-21T22:29:18+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007479s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2014-02-21T22:29:31+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007250s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-02-21T22:29:32+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:30:42+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.008605s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000356s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-02-21T22:30:47+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010027s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000338s ]
+
+[ 2014-02-21T22:30:48+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:31:12+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.010310s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2014-02-21T22:31:16+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010448s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000334s ]
+
+[ 2014-02-21T22:31:17+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:31:40+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.008418s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-02-21T22:31:45+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010113s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000352s ]
+
+[ 2014-02-21T22:31:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:32:00+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007013s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2014-02-21T22:32:05+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009996s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.011293s ]
+
+[ 2014-02-21T22:32:39+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.009635s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2014-02-21T22:32:42+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=playdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.015517s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `playdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000396s ]
+
+[ 2014-02-21T22:32:44+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:33:11+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.036709s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007517s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-02-21T22:33:15+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010181s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 26 行.
+
+[ 2014-02-21T22:33:16+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:34:14+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007759s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-02-21T22:34:16+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.011098s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000362s ]
+
+[ 2014-02-21T22:34:17+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:34:44+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007088s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-02-21T22:34:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009889s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000365s ]
+
+[ 2014-02-21T22:34:48+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-02-21T22:34:55+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.008399s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.027559s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2014-02-21T22:34:58+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.011162s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 26 行.
+
+[ 2014-02-21T22:34:58+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 37 行.
+
+[ 2014-02-21T22:35:54+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007177s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2014-02-21T22:36:03+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006934s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006243s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2014-02-21T22:36:06+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.026747s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 25 行.
+
+[ 2014-02-21T22:36:08+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 36 行.
+
+[ 2014-02-21T22:37:04+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007202s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-02-21T22:37:07+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.042661s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000409s ]
+
+[ 2014-02-21T22:37:09+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.020903s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000331s ]
+
+[ 2014-02-21T22:37:11+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=playdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009867s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `playdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000310s ]
+
+[ 2014-02-21T22:37:18+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007034s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010361s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2014-02-21T22:37:21+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009850s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000363s ]
+
+[ 2014-02-21T22:37:22+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2014-02-21T22:37:23+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+
+[ 2014-02-21T22:38:25+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.022265s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:1.531861s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.531938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.039661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.039076s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.049296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.128862s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.033210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.033266s ]
+
+[ 2014-02-21T22:38:29+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.033380s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000367s ]
+
+[ 2014-02-21T22:38:30+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2014-02-21T22:38:45+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006956s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.006526s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2014-02-21T22:38:48+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009857s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000313s ]
+
+[ 2014-02-21T22:40:15+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007115s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-02-21T22:40:18+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009951s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000347s ]
+
+[ 2014-02-21T22:40:19+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2014-02-21T22:41:22+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-02-21T22:42:03+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-02-21T22:44:58+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.020262s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038502s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005698s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006888s ]
+
+[ 2014-02-21T22:45:01+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010233s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000370s ]
+
+[ 2014-02-21T22:45:12+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: resCache C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 39 行.
+
+[ 2014-02-21T22:45:28+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007106s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2014-02-21T22:45:32+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010077s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.034963s ]
+
+[ 2014-02-21T22:45:33+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-02-21T22:46:42+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007301s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-02-21T22:46:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009952s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000356s ]
+
+[ 2014-02-21T22:46:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-02-21T22:49:39+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.072007s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-02-21T22:49:42+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.027418s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000355s ]
+
+[ 2014-02-21T22:49:43+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 38 行.
+
+[ 2014-02-21T22:49:53+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007286s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2014-02-21T22:49:55+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.011522s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000363s ]
+
+[ 2014-02-21T22:49:56+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+
+[ 2014-02-21T22:50:35+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+
+[ 2014-02-21T22:50:51+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-02-21T22:50:55+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-02-21T22:51:11+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined variable: excelAction C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 72 行.
+
+[ 2014-02-21T22:51:51+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-02-21T22:52:04+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-02-21T22:52:32+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-02-21T22:53:28+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.018779s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006872s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-02-21T22:53:33+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010071s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.006985s ]
+
+[ 2014-02-21T22:53:34+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-02-21T22:55:07+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-27&queryBy=playdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.019272s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `playdate` LIKE BINARY ('%2013-12-27%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000398s ]
+
+[ 2014-02-21T22:55:08+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+
+[ 2014-02-21T22:58:51+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2014-02-21T22:59:07+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010130s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000402s ]
+
+[ 2014-02-21T22:59:08+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined variable: objPHPExcel C:\wamp\www\hlpw\Lib\Action\reserListAction.class.php 第 51 行.
+
+[ 2014-02-21T22:59:23+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.009982s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000318s ]
+
+[ 2014-02-21T22:59:24+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2014-02-21T23:01:17+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=exportsExc
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-02-21T23:02:46+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007737s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.169678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-02-21T23:03:23+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007580s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2014-02-21T23:03:36+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007154s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2014-02-21T23:03:41+08:00 ] 127.0.0.1 /hlpw/?m=reserList&&a=ajaxQueryList&place=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7&data=2013-12-01&queryBy=createdate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `reservationlist` [ RunTime:0.010957s ]
+SQL: SELECT * FROM `reservationlist` WHERE ( `createdate` LIKE BINARY ('%2013-12-01%') ) AND ( `place` = '北京欢乐谷' ) ORDER BY playdate desc  [ RunTime:0.000442s ]
+
+[ 2014-02-21T23:04:47+08:00 ] 127.0.0.1 /hlpw/?m=changePass
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: jumpUrl C:\wamp\www\hlpw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+NOTIC: [8] Undefined variable: waitSecond C:\wamp\www\hlpw\Runtime\Cache\82d261e5c1aacbac870614f227fef014.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-02-21T23:04:49+08:00 ] 127.0.0.1 /hlpw/?m=placeControl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2] Missing argument 1 for placeControlAction::checkOutPlaceList(), called in C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php on line 7 and defined C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.024608s ]
+NOTIC: [8] Undefined variable: availabel C:\wamp\www\hlpw\Lib\Action\placeControlAction.class.php 第 45 行.
+SQL: SELECT * FROM `place`  [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026668s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000484s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-02-21T23:04:50+08:00 ] 127.0.0.1 /hlpw/?m=activeNumber
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.047032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activenumber` LIMIT 1   [ RunTime:0.208767s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.006446s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `activenumber` [ RunTime:0.016131s ]
+SQL: SELECT `createdate` FROM `activenumber` LIMIT 20   [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.157375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2014-02-21T23:04:53+08:00 ] 127.0.0.1 /hlpw/?m=reserList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `place` [ RunTime:0.007056s ]
+SQL: SELECT `placename` FROM `place` WHERE ( available=1 )  [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000575s ]
+

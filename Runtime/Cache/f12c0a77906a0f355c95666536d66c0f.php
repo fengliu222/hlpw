@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <link rel="stylesheet" href="common/css/bootstrap.min.css">
- 
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="common/css/index.css">
     <link rel="stylesheet" href="common/js/date/jquery.datepick.css">
@@ -22,26 +21,27 @@
 
 <body>
     <div id="main" class='container'>
-        <div id="header"></div>
-        <div id="inputForm" class="content">
+    <div class="row">
+        <div id="header" class="col-md-6"></div>
+        <div id="inputForm" class="content col-sm-12 col-md-6">
+            <div class="smallLogo page-header">
+               <h1>欢乐票务网<small>团购预约平台</small></h1>
+            </div>
             <div class="formBlock">
                 <form action="#" method="POST" class="form-horizontal" id="theForm"  role="form">
                     <div id="scrollContent" class=''>
                         <div class="form-group">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                 <lable>门票名称</lable>
                             </div>
-                            
-                            <div class="col-lg-6">
-                                    <select id='parkName' name='place' class="form-control">
-                                        <?php if(is_array($placelist)): $i = 0; $__LIST__ = $placelist;if( count($__LIST__)==0 ) : echo "空" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["placename"]); ?>"><?php echo ($vo["placename"]); ?></option><?php endforeach; endif; else: echo "空" ;endif; ?>
-                                    </select>
+                            <div class="col-sm-6">
+                                <select id='parkName' name='place' class="form-control">
+                                    <?php if(is_array($placelist)): $i = 0; $__LIST__ = $placelist;if( count($__LIST__)==0 ) : echo "空" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["placename"]); ?>"><?php echo ($vo["placename"]); ?></option><?php endforeach; endif; else: echo "空" ;endif; ?>
+                                </select>
                             </div>
-
                         </div>
-                        
                         <div class="form-group">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                 <lable for="userName"> 
                                     <span class="require">*</span>取票人姓名</lable>
                             </div>
@@ -51,7 +51,7 @@
 
                         </div>
                         <div class="form-group">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                 <lable for="userTel">
                                     <span class="require">*</span>取票人手机</lable>
                             </div>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                 <lable for="telConfirm">
                                 <span class="require">*</span>取票人手机确认</lable>
                             </div>
@@ -69,17 +69,16 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                 <lable for="userIDCard">
                                 <span class="require">*</span>身份证</lable>
                             </div>
-                           
                             <div class="col-sm-6">
                                 <input name="userIDCard" id="userIDCard" class="form-control validate[required,custom[chinaIdLoose]]" data-prompt-position="centerRight" type="text">
                             </div>
                         </div>
                         <div class="form-group">
-                             <div class="col-lg-3 control-label">
+                             <div class="col-sm-3 control-label">
                                 <lable for="ariDate">
                                 <span class="require">*</span>出游日期</lable>
                             </div>
@@ -88,11 +87,10 @@
                             </div>
                         </div>
                         <div class="form-group passBlock">
-                            <div class="col-lg-3 control-label">
+                            <div class="col-sm-3 control-label">
                                <lable for="passNumber_0">
                                 <span class="require">*</span>消费码</lable>
                             </div>
-                            
                             <div class="col-sm-6 activeWrap">
                                 <div class="input-append">
                                     <input  name="passNumber_0"
@@ -116,11 +114,12 @@
                     </div>
                 </form>
             </div>
-
+            <div class="connect">
+               欢乐票务预约系统 联系电话：18617559845
+            </div>
 
         </div>
-       
-        <div id="confirmForm" class="content dn">
+        <div id="confirmForm" class="content dn col-sm-12 col-md-6">
             <div class="confirmWrap">
                 <table class="table table-hover" >
                     <thead>
@@ -159,7 +158,8 @@
                 <button type="button" id="reConfirm" class="btn">返回重新填写</button>
             </div>
         </div>
-         <div class="clear"></div>
+    </div>
+     <div class="clear"></div>
     </div>
 </body>
 <script src="common/js/jquery-1.7.2.min.js"></script>

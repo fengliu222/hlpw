@@ -1,27 +1,13 @@
 <?php 
 	
-	/*
-		TODO:
-			0.创建数据库的SQL语句集...done
-			1.用户登录...done
-			2.管理界面
-				0.首页也是预约列表
-				1.个人预约查询
-				2.增加预约
-				3.往数据库里增加激活码
-					0.激活码存入数据库
-					1.导出excel
-	*/ 
 	class UserAction extends Action {
 		 
 		public function index(){
-			 
 		    if(isset($_SESSION['admin'])){
 		    	  $this->success('登陆成功', '?m=Admin');
-
+		    }else{
+		    	$this -> display();
 		    }
-			$this -> display();
- 
 		}
 		public function adminLogin(){
 			$User = new Model('User');
@@ -36,5 +22,30 @@
 		 		echo '0';
 		 	}
 		}
+
+		public function updatePass(){
+			$old = $_POST["oldpass"];
+			$new = $_POST["newpass"];
+			$re =  $_POST["repass"];
+
+			$User = new Model('User');
+			$usernameFromDB = $User->where('username="'.$_SESSION['admin'].'" and password="'.$old.'"')->find();
+
+			if($usernameFromDB){
+				if($new == $re){
+					$data['password'] = $new;
+					$User -> where('username="'.$_SESSION['admin'].'"')->save($data);
+					$this -> success("密码修改成功，请重新登录！");
+					if(isset($_SESSION['admin'])){
+						session('admin',null);
+						$this -> redirect("/?m=User");
+					}
+				}else{
+					$this -> error("新密码两次输入不同，请重新输入",'./?m=userinfo');
+				}
+			}
+			
+		}
+ 
 	}
  ?>
